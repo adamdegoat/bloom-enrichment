@@ -71,7 +71,23 @@ def main():
             else:
                 by_key[k] = it
 
+    # attach official website + phone from contacts.json (matched by exact prov)
+    contacts = {}
+    cpath = os.path.join(HERE, "contacts.json")
+    if os.path.exists(cpath):
+        with open(cpath) as fh:
+            for c in json.load(fh):
+                contacts[c["prov"]] = c
+    n_url = 0
+    for it in by_key.values():
+        ct = contacts.get(it["prov"], {})
+        it["url"] = ct.get("url")
+        it["phone"] = ct.get("phone")
+        if it["url"]:
+            n_url += 1
+
     classes = sorted(by_key.values(), key=lambda c: c["prov"].lower())
+    print(f"contacts: {n_url}/{len(classes)} have a website")
     out = {
         "generated": datetime.date.today().isoformat(),
         "count": len(classes),

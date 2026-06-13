@@ -24,7 +24,9 @@
    ],
    "trial": null,
    "rev": "Bilingual creative-drama focus on body language and imaginative roleplay for the youngest learners.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Abacus Program",
@@ -47,7 +49,9 @@
    ],
    "trial": true,
    "rev": "Boutique two-outlet abacus centre in Bukit Timah and Katong; small groups but among the priciest abacus options.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Art Classes",
@@ -70,7 +74,9 @@
    ],
    "trial": true,
    "rev": "Process-art franchise that rotates through real artists and styles, with a gallery share at the end of each session.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.abrakadoodle.com.sg/",
+   "phone": "+65 6235 3631"
   },
   {
    "n": "Little Presenters",
@@ -93,7 +99,9 @@
    ],
    "trial": null,
    "rev": "Short weekly preschool sessions drilling speech through tongue twisters and role-play.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://absolute-minds.com/",
+   "phone": "+65 6909 8061"
   },
   {
    "n": "Speech & Drama",
@@ -117,7 +125,9 @@
    ],
    "trial": true,
    "rev": "One of Singapore's pioneer children's drama academies, with story-based classes for toddlers up; reliable but on the pricier side.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://act3international.com.sg/",
+   "phone": null
   },
   {
    "n": "Group Gymnastics",
@@ -139,7 +149,9 @@
    ],
    "trial": true,
    "rev": "East-side gym offering cheap $15 trial classes, a low-risk way to test if your child takes to it.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.alphagymasia.com/",
+   "phone": "+65 9754 3866"
   },
   {
    "n": "Drama For The Young",
@@ -162,7 +174,9 @@
    ],
    "trial": null,
    "rev": "Well-regarded Chinese speech and drama that leans on crafts, songs and props to keep young kids engaged.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.applepie.com.sg/",
+   "phone": "+65 6766 9820"
   },
   {
    "n": "Themed Art Courses",
@@ -186,7 +200,9 @@
    ],
    "trial": true,
    "rev": "Well-known chain that wraps fine-art technique in games, stories and songs; membership-based so commitment is expected.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://artary.sg/",
+   "phone": "+65 9655 0346"
   },
   {
    "n": "Art Classes & Jams",
@@ -208,7 +224,9 @@
    ],
    "trial": null,
    "rev": "Keeps a tight one-instructor-to-four-children ratio, so kids get genuine individual guidance.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.artifystudio.com/",
+   "phone": "+65 9011 1431"
   },
   {
    "n": "Kinder Gym",
@@ -230,7 +248,9 @@
    ],
    "trial": null,
    "rev": "Based at Orchid Country Club with a clear beginner-to-advanced ladder; location may be a stretch for non-northeast families.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://agda.sg/",
+   "phone": "+65 8777 3313"
   },
   {
    "n": "General Gymnastics",
@@ -252,7 +272,9 @@
    ],
    "trial": true,
    "rev": "Runs out of HomeTeamNS and SAFRA clubhouses and notably caters to special-needs gymnasts too.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.bazgym.com/",
+   "phone": "+65 6256 8191"
   },
   {
    "n": "Gymnastics & Movement",
@@ -275,7 +297,9 @@
    ],
    "trial": null,
    "rev": "A long-running, affordable recreational gym across pools and community clubs; strong on playful coordination rather than competitive polish.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://bearyfungym.com/",
+   "phone": null
   },
   {
    "n": "Preschool Chinese",
@@ -301,7 +325,9 @@
    ],
    "trial": null,
    "rev": "Well-known Chinese enrichment with songs and storytelling across 20+ malls; very accessible.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.berriesworld.com/",
+   "phone": null
   },
   {
    "n": "Abacus School",
@@ -323,7 +349,9 @@
    ],
    "trial": true,
    "rev": "West-side abacus specialist with a free trial and assessment; handy for Jurong/Clementi but region-limited.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "LEGO STEM Classes",
@@ -349,7 +377,9 @@
    ],
    "trial": true,
    "rev": "Franchise model means easy access islandwide; LEGO-driven and light on actual coding.",
-   "src": "bricks4kidz.sg"
+   "src": "bricks4kidz.sg",
+   "url": "https://www.bricks4kidz.com.sg/",
+   "phone": "+65 6733 4123"
   },
   {
    "n": "Young Learners English",
@@ -371,7 +401,9 @@
    ],
    "trial": null,
    "rev": "Qualified native-standard teachers and small groups; trusted but expensive and limited locations.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://www.britishcouncil.sg/",
+   "phone": null
   },
   {
    "n": "Kindergym",
@@ -393,7 +425,9 @@
    ],
    "trial": null,
    "rev": "A Holland Village mainstay with a clear progression from Kindergym into recreational and competitive tracks.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.bubblesgym.com.sg/",
+   "phone": "+65 6466 4656"
   },
   {
    "n": "Drama & Musical Theatre",
@@ -417,7 +451,9 @@
    ],
    "trial": null,
    "rev": "Long-running studio with internationally trained teachers and an early-childhood creative-play track.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://centre-stage.com/",
+   "phone": "+65 6732 7211"
   },
   {
    "n": "2D & 3D Art",
@@ -440,7 +476,9 @@
    ],
    "trial": null,
    "rev": "Choice-based approach lets children pick their own projects; suits self-directed kids more than those wanting structure.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.chalknpencils.com/",
+   "phone": "+65 9839 0979"
   },
   {
    "n": "Mandarin Language Learners",
@@ -464,7 +502,9 @@
    ],
    "trial": null,
    "rev": "Speech-and-drama approach to Mandarin from the Julia Gabriel group; immersive but premium.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://www.chengzhu.edu.sg/",
+   "phone": "+65 6737 5348"
   },
   {
    "n": "LEGO Robotics & Engineering",
@@ -486,7 +526,9 @@
    ],
    "trial": null,
    "rev": "Veteran centre with small classes; strong on building, less obviously on coding.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.worklab.com.sg/",
+   "phone": "+65 9729 7828"
   },
   {
    "n": "Abacus Learning",
@@ -509,7 +551,9 @@
    ],
    "trial": true,
    "rev": "Veteran, well-priced abacus school across Toa Payoh/Bishan/Novena; no-frills and traditional.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Abacus & Mental Arithmetic",
@@ -535,7 +579,9 @@
    ],
    "trial": null,
    "rev": "Long-established dual-hand abacus chain with the widest island footprint; effective for speed but drill-heavy.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://cma.edu.sg/",
+   "phone": "+65 6481 5853"
   },
   {
    "n": "Scratch & Robotics",
@@ -559,7 +605,9 @@
    ],
    "trial": null,
    "rev": "Award-winning and rigorous, but it skews older (7+) and academic rather than play-led.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.codinglab.com.sg/",
+   "phone": null
   },
   {
    "n": "Jolly Phonics & Orton-Gillingham",
@@ -581,7 +629,9 @@
    ],
    "trial": null,
    "rev": "Multi-sensory approach with rare dyslexia-intervention training; strong for struggling readers.",
-   "src": "skoopsg.com"
+   "src": "skoopsg.com",
+   "url": "https://academy.curiousthoughts.sg/",
+   "phone": "+65 6250 2595"
   },
   {
    "n": "Robotics (QUACK Method)",
@@ -603,7 +653,9 @@
    ],
    "trial": null,
    "rev": "Uses LEGO Education and KUBO kits; hands-on and well-resourced.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://ducklearning.com/",
+   "phone": "+65 6747 4236"
   },
   {
    "n": "LEGO Engineering",
@@ -625,7 +677,9 @@
    ],
    "trial": true,
    "rev": "Learn-by-doing with LEGO models lands well for the 4-6 crowd; lighter on real coding.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.youngengineers.sg/",
+   "phone": null
   },
   {
    "n": "Early Childhood Music",
@@ -647,7 +701,9 @@
    ],
    "trial": null,
    "rev": "Dual piano-and-violin early-years track, though it caps out around age five.",
-   "src": "honeykidsasia.com"
+   "src": "honeykidsasia.com",
+   "url": "https://www.edvox.com/",
+   "phone": "+65 6100 3380"
   },
   {
    "n": "Coding & Robotics",
@@ -670,7 +726,9 @@
    ],
    "trial": true,
    "rev": "Wide age range and a free trial; framing leans hard on DSA portfolio prep even for little ones.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://empirecode.co/",
+   "phone": null
   },
   {
    "n": "Kinder Gymnastics",
@@ -693,7 +751,9 @@
    ],
    "trial": null,
    "rev": "Covers both artistic and rhythmic gymnastics across community venues, though the youngest classes start at five.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://fogymnastics.com/",
+   "phone": "+65 8126 0601"
   },
   {
    "n": "9-Bead Abacus Program",
@@ -718,7 +778,9 @@
    ],
    "trial": null,
    "rev": "Structured 10-level 9-bead abacus course across heartland outlets; solid progression but traditional and repetitive.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://funwithabacus.com/",
+   "phone": "+65 9786 5383"
   },
   {
    "n": "Abacus Mental Arithmetic",
@@ -742,7 +804,9 @@
    ],
    "trial": true,
    "rev": "Five eastern/central outlets with transparent pricing and a refundable trial; classic mental-arithmetic drilling.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Visual Art & Cartoons",
@@ -765,7 +829,9 @@
    ],
    "trial": null,
    "rev": "Long-running structured curriculum spanning painting, handicrafts and comics; methodical rather than free-spirited.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.globalart.com.sg/",
+   "phone": "+65 6256 6260"
   },
   {
    "n": "Speech & Drama",
@@ -788,7 +854,9 @@
    ],
    "trial": null,
    "rev": "Non-profit studio offering a structured ladder from foundation to diploma levels.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.graces-studio.net/",
+   "phone": "+65 8766 5244"
   },
   {
    "n": "Theatre Workshops",
@@ -811,7 +879,9 @@
    ],
    "trial": null,
    "rev": "Values-led acting workshops emphasising authenticity and empathy over polished performance.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://methodactingasia.com/",
+   "phone": null
   },
   {
    "n": "Right-Brain & Math",
@@ -834,7 +904,9 @@
    ],
    "trial": true,
    "rev": "Fast-paced right-brain programme with flash-based numeracy; engaging for very young kids but expensive.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": "https://www.hegurueducation.com.sg/",
+   "phone": null
   },
   {
    "n": "Drama Programmes",
@@ -861,7 +933,9 @@
    ],
    "trial": null,
    "rev": "Globally franchised drama curriculum pitched at life-skills and confidence rather than stage careers.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://helenogrady.com.sg/",
+   "phone": "+65 9116 2838"
   },
   {
    "n": "Early Art Classes",
@@ -885,7 +959,9 @@
    ],
    "trial": null,
    "rev": "Instructors work closely with each child regardless of ability, with branches sited in malls islandwide.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://hiart.com.sg/",
+   "phone": null
   },
   {
    "n": "Playgroup & Preschool Chinese",
@@ -910,7 +986,9 @@
    ],
    "trial": null,
    "rev": "Established Mandarin centre (since 1992) in four malls; foundational skills then MOE-aligned later.",
-   "src": "hua.com.sg"
+   "src": "hua.com.sg",
+   "url": "https://hua.com.sg/",
+   "phone": null
   },
   {
    "n": "Pre-Reading & Reading",
@@ -936,7 +1014,9 @@
    ],
    "trial": null,
    "rev": "Confidence-focused programme with digital tools and virtual options; very widely available.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://sg.icanread.asia/",
+   "phone": null
   },
   {
    "n": "LEGO Mindstorms & STEM",
@@ -959,7 +1039,9 @@
    ],
    "trial": null,
    "rev": "Adaptive, proficiency-based curriculum is a plus; orientation tilts toward competitions.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.in3labs.com/",
+   "phone": "+65 6456 4898"
   },
   {
    "n": "Multi-Sports Academy",
@@ -982,7 +1064,9 @@
    ],
    "trial": null,
    "rev": "Preschool-focused multi-sport classes built around fundamental movement skills before introducing specific sports.",
-   "src": "infinitikids.sg"
+   "src": "infinitikids.sg",
+   "url": "https://www.infinitikids.org/",
+   "phone": null
   },
   {
    "n": "Phonics Programme",
@@ -1006,7 +1090,9 @@
    ],
    "trial": null,
    "rev": "Play-filled phonics with songs and visuals that builds a solid early reading base; only a few outlets.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.jan-elly.com/",
+   "phone": null
   },
   {
    "n": "Music Explorer Program",
@@ -1028,7 +1114,9 @@
    ],
    "trial": true,
    "rev": "Small-group taster of singing, keyboard, percussion, ukulele and violin before committing to one instrument.",
-   "src": "honeykidsasia.com"
+   "src": "honeykidsasia.com",
+   "url": "https://joymusicstudio.sg/",
+   "phone": "+65 6348 0628"
   },
   {
    "n": "Speech, Performance & Debate",
@@ -1056,7 +1144,9 @@
    ],
    "trial": null,
    "rev": "Premium EduDrama methodology with strong communication outcomes, but among the most expensive options.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.juliagabriel.com/",
+   "phone": null
   },
   {
    "n": "Junior Musician",
@@ -1079,7 +1169,9 @@
    ],
    "trial": true,
    "rev": "Introduces both piano and violin to 4-6s, a solid way to test which instrument actually sticks.",
-   "src": "honeykidsasia.com"
+   "src": "honeykidsasia.com",
+   "url": "https://juzmusic.com/",
+   "phone": null
   },
   {
    "n": "Kindermusik",
@@ -1104,7 +1196,9 @@
    ],
    "trial": true,
    "rev": "Globally recognised play-based music-and-movement programme with several mall studios and a virtual option.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://kindermusikwithlovestudios.com.sg/",
+   "phone": null
   },
   {
    "n": "App & Game Coding",
@@ -1126,7 +1220,9 @@
    ],
    "trial": true,
    "rev": "Project-based with a real-world bent; young-age fit is plausible but not clearly stated.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://kodecoon.com/",
+   "phone": "+65 8950 3022"
   },
   {
    "n": "Reading Programme",
@@ -1151,7 +1247,9 @@
    ],
    "trial": null,
    "rev": "Self-paced worksheet method building vocabulary and recall; effective but repetitive, not play-based.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://kumon.sg/",
+   "phone": null
   },
   {
    "n": "Foundation, LaunchPad & LiftOff",
@@ -1177,7 +1275,9 @@
    ],
    "trial": null,
    "rev": "Scaffolded three-stage reading path across many outlets; methodical rather than flashy.",
-   "src": "skoopsg.com"
+   "src": "skoopsg.com",
+   "url": "https://www.lcentral.net/",
+   "phone": null
   },
   {
    "n": "Super Speakers",
@@ -1201,7 +1301,9 @@
    ],
    "trial": null,
    "rev": "A short two-day workshop format for a confidence boost rather than ongoing weekly training.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.learningjourney.edu.sg/",
+   "phone": null
   },
   {
    "n": "Literacy Programmes",
@@ -1223,7 +1325,9 @@
    ],
    "trial": null,
    "rev": "Seven-level reading ladder from letters to multisyllabic words; clear progression, niche centre.",
-   "src": "skoopsg.com"
+   "src": "skoopsg.com",
+   "url": "https://lilsunshine.net/",
+   "phone": "+65 9190 2778"
   },
   {
    "n": "Fine Arts Classes",
@@ -1245,7 +1349,9 @@
    ],
    "trial": null,
    "rev": "Established East-Coast studio that also accommodates children with learning differences; fairly far east.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://little-artists.com/",
+   "phone": "+65 6449 0339"
   },
   {
    "n": "Phonics & Reading",
@@ -1267,7 +1373,9 @@
    ],
    "trial": null,
    "rev": "Long-running (since 1993) phonics centre with experienced teachers; small and old-school.",
-   "src": "skoopsg.com"
+   "src": "skoopsg.com",
+   "url": "https://www.littlereaderssg.com/",
+   "phone": "+65 9727 9130"
   },
   {
    "n": "Speech & Drama",
@@ -1295,7 +1403,9 @@
    ],
    "trial": null,
    "rev": "Well-established centre with strong teachers; communicator-focused speech & drama plus phonics, spanning preschool to advanced levels.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.lornawhiston.com/",
+   "phone": "+65 9159 3605"
   },
   {
    "n": "Speech & Drama with Public Speaking",
@@ -1318,7 +1428,9 @@
    ],
    "trial": null,
    "rev": "Confidence-building blend of speech, drama and EQ aimed at nursery to K2.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://lovekids.com.sg/",
+   "phone": "+65 6288 0508"
   },
   {
    "n": "Coding & AI",
@@ -1342,7 +1454,9 @@
    ],
    "trial": true,
    "rev": "A robot companion and progress-tracking app make it feel modern for early learners.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.lyza.com.sg/",
+   "phone": null
   },
   {
    "n": "Music, Art, Drama & Dance",
@@ -1365,7 +1479,9 @@
    ],
    "trial": null,
    "rev": "Multi-discipline arts programme combining drama with music and dance under experienced directors.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.maddspace.com.sg/",
+   "phone": null
   },
   {
    "n": "Vedic Math & Games",
@@ -1389,7 +1505,9 @@
    ],
    "trial": null,
    "rev": "Game-based Vedic-math approach that keeps young kids engaged through play; fun, though shortcuts diverge from the MOE syllabus.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://mathmonkey.com.sg/",
+   "phone": null
   },
   {
    "n": "Abacus Mental Arithmetic",
@@ -1412,7 +1530,9 @@
    ],
    "trial": true,
    "rev": "Three north-east/central outlets with mid-range fees and a small trial; reliable drilling without frills.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Early Math Play",
@@ -1435,7 +1555,9 @@
    ],
    "trial": null,
    "rev": "Play-based early-concept maths aimed at preschoolers; gentle and exploratory, thin public detail.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.matrixmath.sg/",
+   "phone": null
   },
   {
    "n": "Phonics, Reading & Writing",
@@ -1457,7 +1579,9 @@
    ],
    "trial": true,
    "rev": "Tiny classes (max 6, two staff) and trilingual support; single East Coast location limits access.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.merrymindssg.com/",
+   "phone": "+65 8086 8268"
   },
   {
    "n": "LEGO to AI Robotics",
@@ -1481,7 +1605,9 @@
    ],
    "trial": true,
    "rev": "Takes kids as young as 3 with a hands-on path up to AI; good fit for the youngest.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.metarobotics.sg/",
+   "phone": "+65 8822 1615"
   },
   {
    "n": "Phonics & Oxford Reading Tree",
@@ -1503,7 +1629,9 @@
    ],
    "trial": null,
    "rev": "Systematic 42-sound phonics with structured book progression; solid traditional method.",
-   "src": "skoopsg.com"
+   "src": "skoopsg.com",
+   "url": "https://metamoreacademy.com/",
+   "phone": "+65 9005 9266"
   },
   {
    "n": "Phonics & Reading",
@@ -1529,7 +1657,9 @@
    ],
    "trial": null,
    "rev": "Tuition-chain phonics with proprietary books across many outlets; leans academic.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.mindstretcher.com/",
+   "phone": "+65 8883 8004"
   },
   {
    "n": "Math Enrichment (3-Mind)",
@@ -1556,7 +1686,9 @@
    ],
    "trial": null,
    "rev": "Premium brand pairing heuristics with a critical-thinking pitch; polished but priced high.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.mindchamps.org/",
+   "phone": null
   },
   {
    "n": "Reading Programme",
@@ -1582,7 +1714,9 @@
    ],
    "trial": true,
    "rev": "Big chain with a structured, assessment-first literacy curriculum; reliable but corporate and pricey.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://www.mindchamps.org/",
+   "phone": null
   },
   {
    "n": "Model Math",
@@ -1604,7 +1738,9 @@
    ],
    "trial": null,
    "rev": "Single-location, MOE-aligned hands-on maths at SAFRA Toa Payoh; convenient there but limited reach.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Social Skills & Etiquette",
@@ -1626,7 +1762,9 @@
    ],
    "trial": null,
    "rev": "Interactive etiquette and resilience lessons focused on social skills more than performance.",
-   "src": "yipee.sg"
+   "src": "yipee.sg",
+   "url": "https://www.mollymanners.com.sg/",
+   "phone": null
   },
   {
    "n": "Music & Movement",
@@ -1649,7 +1787,9 @@
    ],
    "trial": null,
    "rev": "Combines music, dance and drama for preschoolers; good for active kids who learn best by moving.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.muse-arts.com.sg/",
+   "phone": null
   },
   {
    "n": "Art Classes for Kids",
@@ -1671,7 +1811,9 @@
    ],
    "trial": null,
    "rev": "Joo Chiat studio catering to ages 3-12 with a warm, kid-focused vibe popular with eastside parents.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://muzart.com.sg/",
+   "phone": "+65 9851 5495"
   },
   {
    "n": "Art Jams & Classes",
@@ -1693,7 +1835,9 @@
    ],
    "trial": null,
    "rev": "Works from the belief that art is a learnable skill, with a relaxed Hougang space that doubles for parties.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.myartpencil.com/",
+   "phone": null
   },
   {
    "n": "Ability-based Reading Programme",
@@ -1719,7 +1863,9 @@
    ],
    "trial": true,
    "rev": "Five-element literacy curriculum with classes capped at 10; free assessment helps level matching.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.myenglish.com.sg/",
+   "phone": "+65 6567 2374"
   },
   {
    "n": "Gym & Movement",
@@ -1745,7 +1891,9 @@
    ],
    "trial": true,
    "rev": "A well-known franchise with four outlets and structured age-banded classes; great energy but franchise pricing adds up.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://mygym.com.sg/",
+   "phone": "+65 8175 0787"
   },
   {
    "n": "Junior Drama (Bilingual)",
@@ -1768,7 +1916,9 @@
    ],
    "trial": null,
    "rev": "Arts-school-grade bilingual drama blending artistic growth with language development.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.nafa.edu.sg/",
+   "phone": null
   },
   {
    "n": "LEGO Robotics & Coding",
@@ -1791,7 +1941,9 @@
    ],
    "trial": true,
    "rev": "Long-running robotics specialist; the youngest tier starts around 6, so the 4-5 set is out.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://sg.nullspace.co/",
+   "phone": "+65 6371 1783"
   },
   {
    "n": "Music & Movement",
@@ -1814,7 +1966,9 @@
    ],
    "trial": null,
    "rev": "Tanglin studio with age-banded classes from babies to age seven, blending singing, instruments and movement.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://ourmusicstudio.com.sg/",
+   "phone": "+65 6467 1789"
   },
   {
    "n": "Recreational Gymnastics",
@@ -1837,7 +1991,9 @@
    ],
    "trial": null,
    "rev": "Solid mall-based recreational gym with holiday camps and parties; pricing isn't published so you'll need to enquire.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.powerkidsgym.com/",
+   "phone": "+65 9157 0864"
   },
   {
    "n": "Developmental Gymnastics",
@@ -1859,7 +2015,9 @@
    ],
    "trial": null,
    "rev": "Toa Payoh club leaning toward artistic gymnastics; the per-term fee is on the higher side for casual learners.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.primegym.com/",
+   "phone": "+65 6773 2901"
   },
   {
    "n": "Speech Excellence",
@@ -1882,7 +2040,9 @@
    ],
    "trial": true,
    "rev": "Structured, competition-oriented coaching with a cheap trial, though core age skews older than 8.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://publicspeakingacademy.com.sg/",
+   "phone": "+65 6443 4049"
   },
   {
    "n": "Speed Math & Abacus",
@@ -1906,7 +2066,9 @@
    ],
    "trial": true,
    "rev": "In-person and cheaper online abacus classes with a free session; flexible, but skews age 6 and up.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Diverse Art Packages",
@@ -1928,7 +2090,9 @@
    ],
    "trial": null,
    "rev": "Pasir Ris studio that pairs art-making with confidence and problem-solving; handy for far-east families.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.rafayetstudio.com/",
+   "phone": "+65 8366 6157"
   },
   {
    "n": "Recreational Gymnastics",
@@ -1950,7 +2114,9 @@
    ],
    "trial": null,
    "rev": "Bukit Timah academy with both recreational and serious competitive pathways, suiting kids who may want to progress.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://rafflesgymnastics.com/",
+   "phone": "+65 6838 4288"
   },
   {
    "n": "3-in-1 Phonics, Reading & Spelling",
@@ -1976,7 +2142,9 @@
    ],
    "trial": null,
    "rev": "A fast, one-week intensive; the centre claims quick results, so pacing is intense and it's less play-based.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.readinaweek.com.sg/",
+   "phone": null
   },
   {
    "n": "Multi-Sports",
@@ -2003,7 +2171,9 @@
    ],
    "trial": true,
    "rev": "A physio-designed, non-competitive programme teaching ten sports across 50+ preschools, ideal for building broad movement basics under age six.",
-   "src": "littlestepsasia.com"
+   "src": "littlestepsasia.com",
+   "url": "https://www.readysteadygokids.com.sg/",
+   "phone": "+65 9855 8221"
   },
   {
    "n": "Rhythmic Gymnastics",
@@ -2027,7 +2197,9 @@
    ],
    "trial": null,
    "rev": "One of the few centres focused on rhythmic gymnastics, blending dance-like artistry with athletic discipline.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.relevegymsingapore.com/",
+   "phone": "+65 8015 6235"
   },
   {
    "n": "Coding & Robotics Roadmap",
@@ -2051,7 +2223,9 @@
    ],
    "trial": true,
    "rev": "MOE-aligned progression is a selling point but the youngest classes really begin at 5.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://roboto.sg/",
+   "phone": "+65 9193 8589"
   },
   {
    "n": "Project-Based Coding",
@@ -2073,7 +2247,9 @@
    ],
    "trial": true,
    "rev": "Genuinely exploratory and creativity-first, though one main campus limits convenience.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.saturdaykids.com/",
+   "phone": "+65 3159 0980"
   },
   {
    "n": "KidsSTOP & STEM Workshops",
@@ -2095,7 +2271,9 @@
    ],
    "trial": null,
    "rev": "Hands-on exhibits are excellent for young kids but it's drop-in workshops, not a steady weekly class.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.science.edu.sg/",
+   "phone": "+65 6425 2500"
   },
   {
    "n": "Speech & Drama with Musical Theatre",
@@ -2119,7 +2297,9 @@
    ],
    "trial": null,
    "rev": "Bilingual centre focused on confidence and expressive performance.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.seimpi.edu.sg/",
+   "phone": "+65 6737 6731"
   },
   {
    "n": "Singapore Maths",
@@ -2146,7 +2326,9 @@
    ],
    "trial": null,
    "rev": "Self-paced worksheet-based Singapore Math with strong heuristics and problem-solving; broad coverage, though the self-directed format suits self-motivated kids more.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://seriouslyaddictivemaths.com.sg/",
+   "phone": null
   },
   {
    "n": "Right-Brain & Math",
@@ -2170,7 +2352,9 @@
    ],
    "trial": true,
    "rev": "Premium right-brain method weaving in number and memory work; strong on early stimulation but pricey.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": "https://www.shichidamethod.com/",
+   "phone": "+65 6254 9555"
   },
   {
    "n": "Rising Stars & Musical Theatre",
@@ -2193,7 +2377,9 @@
    ],
    "trial": null,
    "rev": "Vocals-and-movement musical-theatre track culminating in end-of-year public performances.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://singtheatre.com/",
+   "phone": "+65 9785 1406"
   },
   {
    "n": "Kidz Talking (Drama & Speech)",
@@ -2217,7 +2403,9 @@
    ],
    "trial": null,
    "rev": "Mediacorp-backed programme using storytelling and drama for speech skills, but term fees run high.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.mediaacademy.sg/",
+   "phone": "+65 6333 3888"
   },
   {
    "n": "Abacus Brain Training",
@@ -2242,7 +2430,9 @@
    ],
    "trial": true,
    "rev": "Heartland-focused abacus chain with a free first session; affordable and steady, purely arithmetic.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": "https://www.sipbrainpower.sg/",
+   "phone": null
   },
   {
    "n": "Young Science Explorers",
@@ -2268,7 +2458,9 @@
    ],
    "trial": null,
    "rev": "Observe-question-experiment approach built into a preschool, so it's gentle and age-right.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://skool4kidz.com.sg/",
+   "phone": "+65 6450 0070"
   },
   {
    "n": "Speech-focused Phonics & Reading",
@@ -2296,7 +2488,9 @@
    ],
    "trial": null,
    "rev": "Pairs phonics with public-speaking confidence; good for shy readers, less for pure decoding.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://speechacademyasia.com/",
+   "phone": "+65 9061 1715"
   },
   {
    "n": "Dramatic Speech & Creative Enrichment",
@@ -2320,7 +2514,9 @@
    ],
    "trial": null,
    "rev": "Story-driven 'speak up and stand tall' approach with a clear emotional-intelligence emphasis.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://stageforkids.com/",
+   "phone": null
   },
   {
    "n": "Early STEM & Robotics",
@@ -2344,7 +2540,9 @@
    ],
    "trial": true,
    "rev": "Broad STEM menu including VR; preschool coverage is real but heartland-only locations.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://stem-genius.com/",
+   "phone": "+65 8819 5963"
   },
   {
    "n": "Multilingual Speech & Drama",
@@ -2367,7 +2565,9 @@
    ],
    "trial": null,
    "rev": "Trinity College London partner offering drama in English, Hindi and Mandarin.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://deepikarajani.com/",
+   "phone": "+65 8368 3999"
   },
   {
    "n": "Scratch & Robotics",
@@ -2392,7 +2592,9 @@
    ],
    "trial": true,
    "rev": "Competition-pedigree centre; no published ages so younger fit is unconfirmed.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://thebrainerycode.com/",
+   "phone": "+65 8588 0583"
   },
   {
    "n": "Drawing & Personalization",
@@ -2415,7 +2617,9 @@
    ],
    "trial": null,
    "rev": "Small-group classes built around independence and reflection, drawing out each child's own personality.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.thedrawingmint.com/",
+   "phone": "+65 9745 1575"
   },
   {
    "n": "Inquiry Science",
@@ -2440,7 +2644,9 @@
    ],
    "trial": null,
    "rev": "Inquiry-based experiments suit curious preschoolers, with preschool and lower-primary tracks.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": null,
+   "phone": null
   },
   {
    "n": "Phonics Programme",
@@ -2466,7 +2672,9 @@
    ],
    "trial": null,
    "rev": "Curiosity-driven phonics with songs and parent feedback; warm and child-led.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://theetonacademy.com.sg/",
+   "phone": null
   },
   {
    "n": "Scratch & LEGO Robotics",
@@ -2492,7 +2700,9 @@
    ],
    "trial": null,
    "rev": "Playground-style setup with a clear block-to-Python path and competition results to back it.",
-   "src": "littledayout.com"
+   "src": "littledayout.com",
+   "url": "https://www.thelab.sg/",
+   "phone": "+65 8916 0017"
   },
   {
    "n": "Structured Phonics Approach",
@@ -2518,7 +2728,9 @@
    ],
    "trial": null,
    "rev": "Rigorous 'encode, retrieve, apply' literacy from a high-end tuition brand; academically intense.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.thelearninglab.com.sg/",
+   "phone": "+65 6733 8711"
   },
   {
    "n": "Gymnastics for Preschoolers",
@@ -2540,7 +2752,9 @@
    ],
    "trial": true,
    "rev": "Polished Orchard-based programme with a clear curriculum; premium positioning means it's pricier than community-club options.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.thelittlegym.com.sg/",
+   "phone": "+65 6238 6331"
   },
   {
    "n": "Early Childhood Music Pathway",
@@ -2562,7 +2776,9 @@
    ],
    "trial": null,
    "rev": "Lays a structured musical foundation for under-fives, aimed at families serious about eventual instrument study.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://themusiccircle.com.sg/",
+   "phone": null
   },
   {
    "n": "Drama & Creative Storytelling",
@@ -2586,7 +2802,9 @@
    ],
    "trial": null,
    "rev": "Bilingual English/Mandarin programme built around imagination, empathy and language fluency.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.practice.org.sg/",
+   "phone": null
   },
   {
    "n": "Gymnastics & Parkour",
@@ -2609,7 +2827,9 @@
    ],
    "trial": null,
    "rev": "Multiple outlets combining gymnastics, parkour and trampoline; a good fit for kids who like to climb and tumble freely.",
-   "src": "sg.theasianparent.com"
+   "src": "sg.theasianparent.com",
+   "url": "https://www.theyard.sg/",
+   "phone": null
   },
   {
    "n": "Preschool Chinese",
@@ -2635,7 +2855,9 @@
    ],
    "trial": null,
    "rev": "Specialist Mandarin school with 11 islandwide outlets; structured and exam-oriented as kids grow.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://tienhsia.com/",
+   "phone": "+65 6238 8558"
   },
   {
    "n": "StoryPlay & Speech & Drama",
@@ -2659,7 +2881,9 @@
    ],
    "trial": null,
    "rev": "Performing-arts provider with a gentle StoryPlay-to-speech progression from infancy up.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://www.treblebass-sg.com/",
+   "phone": "+65 8522 2496"
   },
   {
    "n": "Multiple Disciplines",
@@ -2682,7 +2906,9 @@
    ],
    "trial": null,
    "rev": "Imaginative studio covering painting, sculpture and ceramics, so kids get genuine variety.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://treeart.co/",
+   "phone": null
   },
   {
    "n": "Funfit Gymnastics",
@@ -2704,7 +2930,9 @@
    ],
    "trial": true,
    "rev": "Tampines Hub gym with discounted trial classes; the term commitment of 11 lessons plus a registration fee is worth checking before signing.",
-   "src": "littlestepsasia.com"
+   "src": "littlestepsasia.com",
+   "url": "https://tumblejoygym.com/",
+   "phone": "+65 6385 8744"
   },
   {
    "n": "Abacus & Mental Arithmetic",
@@ -2730,7 +2958,9 @@
    ],
    "trial": true,
    "rev": "Globally recognised abacus franchise with 15+ centres and a free assessment; quality can vary by branch.",
-   "src": "skoolopedia.com"
+   "src": "skoolopedia.com",
+   "url": "https://ucmas.sg/",
+   "phone": null
   },
   {
    "n": "Multi-Sports",
@@ -2753,7 +2983,9 @@
    ],
    "trial": null,
    "rev": "Play-based multi-sport sessions emphasising character and fun over competition, suited to younger or hesitant kids.",
-   "src": "vivokids.sg"
+   "src": "vivokids.sg",
+   "url": "https://www.vivokinetics.com/",
+   "phone": null
   },
   {
    "n": "Little Explorers",
@@ -2775,7 +3007,9 @@
    ],
    "trial": null,
    "rev": "Korean-curriculum-inspired classes with an age-banded Little Explorers tier; single Orchard location.",
-   "src": "sassymamasg.com"
+   "src": "sassymamasg.com",
+   "url": "https://www.weart.sg/",
+   "phone": null
   },
   {
    "n": "Drama Classes",
@@ -2798,7 +3032,9 @@
    ],
    "trial": null,
    "rev": "Theatre-company-run classes that empower kids to experiment and make creative decisions.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.wildrice.com.sg/",
+   "phone": null
   },
   {
    "n": "Read Programme",
@@ -2821,7 +3057,9 @@
    ],
    "trial": true,
    "rev": "Deep phonics paired with genuine literary appreciation; more reading-for-love than drill.",
-   "src": "thenewageparents.com"
+   "src": "thenewageparents.com",
+   "url": "https://wonderlitworld.com/",
+   "phone": "+65 6980 5670"
   },
   {
    "n": "Robotics & 3D Printing",
@@ -2843,7 +3081,9 @@
    ],
    "trial": true,
    "rev": "Invention-led blend of STEM and making; single hotel-based location is the main catch.",
-   "src": "smiletutor.sg"
+   "src": "smiletutor.sg",
+   "url": "https://www.wonderswork.com.sg/",
+   "phone": null
   },
   {
    "n": "Zoo-phonics",
@@ -2867,7 +3107,9 @@
    ],
    "trial": null,
    "rev": "Playful kinesthetic method using animal-shaped letters; great for active young learners.",
-   "src": "sunnycitykids.com"
+   "src": "sunnycitykids.com",
+   "url": "https://www.zoo-phonics.com.sg/",
+   "phone": null
   }
  ]
 }
