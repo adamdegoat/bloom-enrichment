@@ -84,8 +84,11 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rg
 .namesearch{width:100%;font-family:'Inter';font-size:15px;padding:13px 15px;border-radius:13px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink);outline:none;transition:border-color .12s}
 .namesearch:focus{border-color:var(--lav)}
 .namesearch::placeholder{color:var(--faint)}
-.morebtn{display:block;margin:4px auto 18px;font-family:'Inter';font-weight:600;font-size:14px;padding:12px 24px;border-radius:999px;border:1.5px solid #e3dcf2;background:#fff;color:var(--berry);cursor:pointer;transition:background .12s}
-.morebtn:hover{background:#f6f2ff}
+.sortbar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:2px 0 16px}
+.sortbar span{font-size:12px;font-weight:600;color:var(--faint);margin-right:2px}
+.sortbar button{font-family:'Inter';font-size:12.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink2);cursor:pointer;transition:.12s}
+.sortbar button.on{background:var(--berry);border-color:var(--berry);color:#fff}
+.rankno{font-size:12px;font-weight:800;color:var(--lav);background:#f1ecff;border-radius:7px;padding:2px 7px;margin-right:8px;align-self:center}
 .gobtn:hover{transform:translateY(-1px)}
 
 /* results */
@@ -382,20 +385,28 @@ function scoreClass(c){
   return {score:s, fits, hit, within, regMatch};
 }
 
-const SHOW_LIMIT=12;
-function onSearch(v){ sel.q=v; if(document.getElementById('results').classList.contains('show')) findMatches(); }
-function findMatches(showAll){
+const SORTS={fit:'Best fit',price:'Price ↑',region:'Region',name:'A–Z'};
+function onSearch(v){ sel.q=v; if(document.getElementById('results').classList.contains('show')) findMatches(true); }
+function setSort(s){ sel.sort=s; findMatches(true); }
+function findMatches(noScroll){
   // Hard budget filter: drop centres whose KNOWN price is over the cap.
   // "Any budget" (99999) keeps everything. Unknown-price centres are kept
-  // (we can't verify) but shown as "Fees on enquiry" and ranked a touch lower.
+  // (we can't verify) but shown as "Fees on enquiry".
   let pool = sel.budget>=99999 ? CLASSES : CLASSES.filter(c=>c.price==null || c.price<=sel.budget);
   const q=(sel.q||'').trim().toLowerCase();
   if(q) pool = pool.filter(c=>(c.prov+' '+c.n).toLowerCase().includes(q));
+  // rank ALL matches best-fit first; this is the default order top→bottom
   const rankedAll=pool.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score);
-  const ranked = showAll ? rankedAll : rankedAll.slice(0,SHOW_LIMIT);
+  // optional re-sort (a convenience; "fit" keeps the best-first ranking)
+  const sort=sel.sort||'fit';
+  const arr=rankedAll.slice();
+  if(sort==='price') arr.sort((a,b)=>(a.c.price==null?1e9:a.c.price)-(b.c.price==null?1e9:b.c.price)||b.score-a.score);
+  else if(sort==='region') arr.sort((a,b)=>REGIONS.indexOf(a.c.regs[0])-REGIONS.indexOf(b.c.regs[0])||b.score-a.score);
+  else if(sort==='name') arr.sort((a,b)=>a.c.prov.localeCompare(b.c.prov));
   const wantLabels=[...sel.focus].map(f=>FOCUS[f].label);
-  const cards=ranked.map(r=>{
+  const cards=arr.map((r,i)=>{
     const c=r.c, col=r.hit.length?FOCUS[r.hit[0]].c:'#9a86f5';
+    const rankno = sort==='fit' ? `<span class="rankno">#${i+1}</span>` : '';
     const why=[];
     why.push(r.fits?`a great age fit for your <b>${sel.age}-year-old</b>`:`runs for ages ${c.a[0]}–${c.a[1]}`);
     if(r.hit.length) why.push(`covers <b>${r.hit.map(h=>FOCUS[h].label).join(' & ')}</b>`);
@@ -404,9 +415,9 @@ function findMatches(showAll){
     const chips=[...new Set(c.f.map(f=>FOCUS[f].area)).values()].map(a=>`<span class="rchip">🌸 ${a}</span>`).join('')
       + c.disp.slice(0,2).map(d=>`<span class="rchip">${d}</span>`).join('');
     return `<div class="rcard" style="--c:${col}">
-      <div class="matchring" style="background:conic-gradient(${col} ${r.score}%, #f1edf7 0)"><div class="inner"><span class="mv">${r.score}</span><span class="ml">match</span></div></div>
+      <div class="matchring" style="background:conic-gradient(${col} ${r.score}%, #f1edf7 0)"><div class="inner"><span class="mv">${r.score}</span><span class="ml">fit</span></div></div>
       <div class="rmain">
-        <div class="rtop"><span class="rn">${c.n}</span><span class="rp">${c.price?('$'+c.price+'<small>/mo</small>'):'<span class="poa">Fees on enquiry</span>'}</span></div>
+        <div class="rtop">${rankno}<span class="rn">${c.n}</span><span class="rp">${c.price?('$'+c.price+'<small>/mo</small>'):'<span class="poa">Fees on enquiry</span>'}</span></div>
         <div class="rprov">${c.prov} · ${regLabel(c)}${c.trial?'<span class="badge">Free trial</span>':''}</div>
         <div class="rwhy">✨ Why it fits: ${why.join(', ')}.</div>
         <div class="rrev"><b>Bloom's take:</b> ${c.rev}</div>
@@ -434,27 +445,28 @@ function findMatches(showAll){
     document.getElementById('rInner').innerHTML=`
       <div class="r-h">No centres match that</div>
       <div class="r-sub">${q?`Nothing matched “${q}”`:'Nothing fit those filters'}. Try a higher budget, a different focus, or clear the centre-name box.</div>`;
-    if(showAll===undefined) res.scrollIntoView({behavior:'smooth',block:'start'});
+    if(!noScroll) res.scrollIntoView({behavior:'smooth',block:'start'});
     return;
   }
-  const moreBtn = (!showAll && rankedAll.length>SHOW_LIMIT)
-    ? `<button class="morebtn" onclick="findMatches(true)">Show all ${rankedAll.length} matching centres ↓</button>`
-    : (showAll && rankedAll.length>SHOW_LIMIT ? `<button class="morebtn" onclick="findMatches(false)">Show fewer ↑</button>` : '');
   const head = q
     ? `🔎 ${rankedAll.length} centre${rankedAll.length>1?'s':''} matching “${q}”`
-    : `🎯 ${rankedAll.length} centre${rankedAll.length>1?'s':''} fit your ${sel.age}-year-old`;
+    : `🎯 ${rankedAll.length} centre${rankedAll.length>1?'s':''} for your ${sel.age}-year-old`;
+  const sub = sort==='fit'
+    ? `Ranked best-fit first — #1 fits your ${sel.age}-year-old most${wantLabels.length?' for '+wantLabels.join(' + '):''}. Every match is listed; you decide.`
+    : `Sorted by ${SORTS[sort].toLowerCase()}. All ${rankedAll.length} matches listed.`;
+  const sortBar = `<div class="sortbar"><span>Sort</span>${Object.keys(SORTS).map(s=>`<button class="${sort===s?'on':''}" onclick="setSort('${s}')">${SORTS[s]}</button>`).join('')}</div>`;
   document.getElementById('rInner').innerHTML=`
     <div class="r-h">${head}</div>
-    <div class="r-sub">Best-fit first — ranked by age, ${sel.region}, budget${wantLabels.length?', and '+wantLabels.join(' + '):''}. Showing ${ranked.length} of ${rankedAll.length}.</div>
+    <div class="r-sub">${sub}</div>
+    ${sortBar}
     ${cards}
-    ${moreBtn}
     <div class="coverage">
       <h4>🌈 Developmental coverage</h4>
       <div class="cs">How your top matches map across Singapore's NEL learning areas.</div>
       ${covRows}
       <div class="covtip">${tip}</div>
     </div>`;
-  if(showAll===undefined) res.scrollIntoView({behavior:'smooth',block:'start'});
+  if(!noScroll) res.scrollIntoView({behavior:'smooth',block:'start'});
 }
 buildForm();
 </script>
