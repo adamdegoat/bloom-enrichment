@@ -348,7 +348,7 @@ function buildForm(){
   document.getElementById('ageSeg').innerHTML=[4,5,6,7,8].map(a=>`<button class="${a===sel.age?'on':''}" onclick="setAge(${a})">${a} yrs</button>`).join('');
   document.getElementById('regionSeg').innerHTML=REGIONS.map(r=>`<button class="${r===sel.region?'on':''}" onclick="setRegion('${r}')">${r}</button>`).join('');
   document.getElementById('focusGrid').innerHTML=Object.entries(FOCUS).map(([k,f])=>`<div class="fopt ${sel.focus.has(k)?'on':''}" style="--c:${f.c};--cb:${f.cb}" onclick="toggleF('${k}')"><div class="fi">${f.ic}</div><div><div class="ft">${f.label}</div><div class="fa">${f.area}</div></div></div>`).join('');
-  document.getElementById('budgetSeg').innerHTML=[150,200,250,400].map((b,i)=>`<button class="${b===sel.budget?'on':''}" onclick="setBudget(${b})">${i===3?'$250+':'≤ $'+b}</button>`).join('');
+  document.getElementById('budgetSeg').innerHTML=[150,200,250,99999].map((b,i)=>`<button class="${b===sel.budget?'on':''}" onclick="setBudget(${b})">${i===3?'Any budget':'≤ $'+b}</button>`).join('');
 }
 function setAge(a){sel.age=a;buildForm();} function setRegion(r){sel.region=r;buildForm();} function setBudget(b){sel.budget=b;buildForm();}
 function toggleF(k){sel.focus.has(k)?sel.focus.delete(k):sel.focus.add(k);buildForm();}
@@ -367,14 +367,18 @@ function scoreClass(c){
   // budget (price may be unknown → stay neutral, never claim "within budget")
   let within;
   if(c.price==null){ within=null; s+=6; }
-  else if(sel.budget>=250 || c.price<=sel.budget){ within=true; s+=10; }
+  else if(c.price<=sel.budget){ within=true; s+=10; }
   else { within=false; s+=Math.max(0,8-(c.price-sel.budget)/12); }
   s=Math.round(Math.max(38,Math.min(98,s)));
   return {score:s, fits, hit, within, regMatch};
 }
 
 function findMatches(){
-  const ranked=CLASSES.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score).slice(0,4);
+  // Hard budget filter: drop centres whose KNOWN price is over the cap.
+  // "Any budget" (99999) keeps everything. Unknown-price centres are kept
+  // (we can't verify) but shown as "Fees on enquiry" and ranked a touch lower.
+  const pool = sel.budget>=99999 ? CLASSES : CLASSES.filter(c=>c.price==null || c.price<=sel.budget);
+  const ranked=pool.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score).slice(0,4);
   const wantLabels=[...sel.focus].map(f=>FOCUS[f].label);
   const cards=ranked.map(r=>{
     const c=r.c, col=r.hit.length?FOCUS[r.hit[0]].c:'#9a86f5';
