@@ -1,6 +1,6 @@
 {
  "generated": "2026-06-13",
- "count": 122,
+ "count": 121,
  "note": "Real Singapore enrichment providers, researched. Prices are typical monthly estimates and change often — confirm with the centre.",
  "classes": [
   {
@@ -116,7 +116,7 @@
     "Engagement"
    ],
    "trial": true,
-   "rev": "Singapore's first dedicated children's drama academy, with story-based classes for toddlers up; reliable but on the pricier side.",
+   "rev": "One of Singapore's pioneer children's drama academies, with story-based classes for toddlers up; reliable but on the pricier side.",
    "src": "smiletutor.sg"
   },
   {
@@ -161,7 +161,7 @@
     "Engagement"
    ],
    "trial": null,
-   "rev": "Award-winning Chinese speech and drama that leans on crafts, songs and props to keep young kids engaged.",
+   "rev": "Well-regarded Chinese speech and drama that leans on crafts, songs and props to keep young kids engaged.",
    "src": "sg.theasianparent.com"
   },
   {
@@ -185,7 +185,7 @@
     "Inventiveness"
    ],
    "trial": true,
-   "rev": "Award-winning chain that wraps fine-art technique in games, stories and songs; membership-based so commitment is expected.",
+   "rev": "Well-known chain that wraps fine-art technique in games, stories and songs; membership-based so commitment is expected.",
    "src": "sassymamasg.com"
   },
   {
@@ -198,7 +198,7 @@
     4,
     9
    ],
-   "price": 45,
+   "price": null,
    "f": [
     "creative"
    ],
@@ -341,8 +341,7 @@
    ],
    "price": 220,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
@@ -384,7 +383,7 @@
     3,
     9
    ],
-   "price": 40,
+   "price": null,
    "f": [
     "active"
    ],
@@ -479,8 +478,7 @@
    ],
    "price": 260,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Inventiveness",
@@ -597,15 +595,14 @@
    ],
    "price": 250,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
     "Inventiveness"
    ],
    "trial": null,
-   "rev": "Official LEGO Education and KUBO partner, so the kit and curriculum are legit.",
+   "rev": "Uses LEGO Education and KUBO kits; hands-on and well-resourced.",
    "src": "sassymamasg.com"
   },
   {
@@ -620,8 +617,7 @@
    ],
    "price": 200,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
@@ -1248,7 +1244,7 @@
     "Appreciation"
    ],
    "trial": null,
-   "rev": "Award-winning East-Coast studio that also accommodates children with learning differences; fairly far east.",
+   "rev": "Established East-Coast studio that also accommodates children with learning differences; fairly far east.",
    "src": "sassymamasg.com"
   },
   {
@@ -1274,35 +1270,13 @@
    "src": "skoopsg.com"
   },
   {
-   "n": "Fun with Phonics",
+   "n": "Speech & Drama",
    "prov": "Lorna Whiston",
    "regs": [
     "North",
     "North-East",
     "East",
     "West",
-    "Central"
-   ],
-   "a": [
-    4,
-    8
-   ],
-   "price": null,
-   "f": [
-    "language"
-   ],
-   "disp": [
-    "Engagement",
-    "Appreciation"
-   ],
-   "trial": null,
-   "rev": "Long-established centre with strong teacher quality and multisensory lessons; premium positioning.",
-   "src": "sunnycitykids.com"
-  },
-  {
-   "n": "Speech & Drama",
-   "prov": "Lorna Whiston School",
-   "regs": [
     "Central"
    ],
    "a": [
@@ -1320,7 +1294,7 @@
     "Appreciation"
    ],
    "trial": null,
-   "rev": "Well-established communicator-focused programmes spanning preschool to advanced levels.",
+   "rev": "Well-established centre with strong teachers; communicator-focused speech & drama plus phonics, spanning preschool to advanced levels.",
    "src": "sg.theasianparent.com"
   },
   {
@@ -1499,8 +1473,7 @@
    ],
    "price": 250,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
@@ -1761,7 +1734,7 @@
     3,
     8
    ],
-   "price": 65,
+   "price": null,
    "f": [
     "active",
     "social"
@@ -1810,8 +1783,7 @@
    ],
    "price": 260,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Inventiveness",
@@ -1909,7 +1881,7 @@
     "Engagement"
    ],
    "trial": true,
-   "rev": "Structured world-champion-led method with a cheap trial, though core age skews older than 8.",
+   "rev": "Structured, competition-oriented coaching with a cheap trial, though core age skews older than 8.",
    "src": "sg.theasianparent.com"
   },
   {
@@ -2003,7 +1975,7 @@
     "Engagement"
    ],
    "trial": null,
-   "rev": "Fast, results-driven course promising 500 words in six sessions; bold claim, intensive pacing.",
+   "rev": "A fast, one-week intensive; the centre claims quick results, so pacing is intense and it's less play-based.",
    "src": "sunnycitykids.com"
   },
   {
@@ -2115,8 +2087,7 @@
    ],
    "price": null,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
@@ -2147,7 +2118,7 @@
     "Appreciation"
    ],
    "trial": null,
-   "rev": "Award-winning bilingual centre focused on confidence and expressive performance.",
+   "rev": "Bilingual centre focused on confidence and expressive performance.",
    "src": "sg.theasianparent.com"
   },
   {
@@ -2365,8 +2336,7 @@
    ],
    "price": 250,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Sense of wonder & curiosity",
@@ -2865,8 +2835,7 @@
    ],
    "price": 260,
    "f": [
-    "discovery",
-    "active"
+    "discovery"
    ],
    "disp": [
     "Inventiveness",

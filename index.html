@@ -89,6 +89,23 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rg
 .sortbar button{font-family:'Inter';font-size:12.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink2);cursor:pointer;transition:.12s}
 .sortbar button.on{background:var(--berry);border-color:var(--berry);color:#fff}
 .rankno{font-size:12px;font-weight:800;color:var(--lav);background:#f1ecff;border-radius:7px;padding:2px 7px;margin-right:8px;align-self:center}
+.enqbtn{margin-top:12px;font-family:'Inter';font-weight:700;font-size:13.5px;padding:11px 18px;border-radius:11px;border:0;cursor:pointer;background:var(--berry);color:#fff;transition:filter .12s}
+.enqbtn:hover{filter:brightness(1.08)}
+.modal{position:fixed;inset:0;background:rgba(30,22,55,.5);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:18px;z-index:100}
+.modal.show{display:flex}
+.modal-card{position:relative;background:#fff;border-radius:22px;max-width:440px;width:100%;max-height:92vh;overflow-y:auto;padding:30px 26px 26px;box-shadow:0 30px 70px -20px rgba(40,20,90,.5)}
+.mclose{position:absolute;top:14px;right:16px;border:0;background:#f3eefb;color:var(--ink2);width:30px;height:30px;border-radius:50%;font-size:14px;cursor:pointer}
+.modal-card h3{font-family:'Fraunces';font-size:23px;color:var(--ink);margin:0 6px 4px 0;line-height:1.15}
+.modal-card .msub{font-size:13px;color:var(--muted);margin-bottom:16px}
+.fl{display:block;font-size:12.5px;font-weight:600;color:var(--ink2);margin:12px 0 5px}
+.modal-card input,.modal-card textarea{width:100%;font-family:'Inter';font-size:14.5px;padding:11px 13px;border-radius:11px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink);outline:none}
+.modal-card input:focus,.modal-card textarea:focus{border-color:var(--lav)}
+.modal-card textarea{resize:vertical;min-height:62px}
+.consent{display:flex;gap:8px;align-items:flex-start;margin:14px 0 4px;font-size:11.5px;color:var(--muted);line-height:1.45}
+.consent input{width:auto;margin-top:2px}
+.subbtn{width:100%;margin-top:16px;font-family:'Inter';font-weight:700;font-size:15px;padding:14px;border-radius:13px;border:0;cursor:pointer;background:linear-gradient(120deg,var(--berry),var(--lav));color:#fff}
+.subbtn:disabled{opacity:.5;cursor:not-allowed}
+.mnote{font-size:11px;color:var(--faint);text-align:center;margin-top:10px}
 .gobtn:hover{transform:translateY(-1px)}
 
 /* results */
@@ -217,7 +234,7 @@ footer b{color:var(--ink2)}
     <div class="trust">
       <span>🌸 <b>NEL-smart</b> matching</span>
       <span>📍 <b>Every region</b> in Singapore</span>
-      <span>💬 <b>Honest</b> parent reviews</span>
+      <span>💬 <b>Honest</b> take on every centre</span>
     </div>
   </section>
 
@@ -264,7 +281,7 @@ footer b{color:var(--ink2)}
       <div class="scard"><div class="si" style="background:#f3effe">🎯</div><h3>Personalised matching</h3><p>We rank classes for <i>your</i> child — their age, your area, your budget and what they need most. The right few, not the overwhelming many.</p></div>
       <div class="scard"><div class="si" style="background:#eafaf3">🌸</div><h3>NEL-aware</h3><p>Every class is mapped to Singapore's Nurturing Early Learners framework — so you see how it actually supports your child's development.</p></div>
       <div class="scard"><div class="si" style="background:#fff2ec">🌈</div><h3>Developmental coverage</h3><p>Bloom shows which areas your child is already covered in and where the gaps are — across their whole 4–8 journey.</p></div>
-      <div class="scard"><div class="si" style="background:#eaf4fe">💬</div><h3>Honest reviews</h3><p>We summarise what real parents say — the good and the not-so-good — so you choose with eyes open.</p></div>
+      <div class="scard"><div class="si" style="background:#eaf4fe">💬</div><h3>Honest, plain-English take</h3><p>For each centre we say what it's good at — and what it's not — in clear language, so you choose with eyes open. No marketing spin.</p></div>
     </div>
   </section>
 
@@ -273,19 +290,19 @@ footer b{color:var(--ink2)}
     <div class="centres">
       <div>
         <h2>Run an enrichment centre? Meet parents who are ready to enrol.</h2>
-        <p>Bloom sends you warm, matched leads — parents whose child genuinely fits your programme, not random clicks. List your classes, get found by the right families.</p>
+        <p>Bloom sends you warm, matched leads — parents whose child genuinely fits your programme, not random clicks. Your listing is free; you only pay when a real parent enquires.</p>
         <div class="cfeats">
-          <div class="cfeat"><span class="ck">✓</span> Matched leads, not cold traffic — parents Bloom already vetted for fit</div>
-          <div class="cfeat"><span class="ck">✓</span> Your classes mapped to NEL — parents trust what they see</div>
-          <div class="cfeat"><span class="ck">✓</span> Reach families in your catchment, across every estate</div>
+          <div class="cfeat"><span class="ck">✓</span> Free to be listed — claim your profile at no cost</div>
+          <div class="cfeat"><span class="ck">✓</span> Matched leads, not cold traffic — pay only when a parent reaches out</div>
+          <div class="cfeat"><span class="ck">✓</span> Ranked by fit, not who pays — featured slots are clearly labelled</div>
         </div>
-        <a class="btn btn-white" href="#pricing" style="margin-top:24px">List your centre</a>
+        <a class="btn btn-white" href="#" onclick="openCentre(event)" style="margin-top:24px">List your centre — free</a>
       </div>
       <div class="cstat">
-        <div class="row"><span>Parents searching monthly</span><b>growing</b></div>
-        <div class="row"><span>Avg. match quality shown</span><b>88%</b></div>
-        <div class="row"><span>NEL areas covered</span><b>All 5 + dispositions</b></div>
-        <div class="row"><span>You pay for</span><b>matched leads</b></div>
+        <div class="row"><span>Real centres listed</span><b id="cstatCount">121</b></div>
+        <div class="row"><span>Cost to be listed</span><b>Free</b></div>
+        <div class="row"><span>You pay</span><b>only per lead</b></div>
+        <div class="row"><span>Search ranking</span><b>by fit, not payment</b></div>
       </div>
     </div>
   </section>
@@ -298,24 +315,24 @@ footer b{color:var(--ink2)}
       <div class="price">
         <div class="pt">Parents</div>
         <div class="pp">Free</div>
-        <div class="pd">Always free for families. Find, compare and book trials.</div>
-        <ul><li>Unlimited personalised matches</li><li>Developmental coverage view</li><li>Honest review summaries</li><li>Save &amp; compare classes</li></ul>
+        <div class="pd">Always free for families. Find and enquire, no sign-up.</div>
+        <ul><li>Unlimited best-fit matches</li><li>Filter &amp; sort 121 real centres</li><li>Developmental coverage view</li><li>Honest take on every centre</li></ul>
         <a class="btn btn-ghost" href="#finder">Find a class</a>
       </div>
       <div class="price feat">
-        <span class="rib">Best for centres</span>
-        <div class="pt">Centre · Featured</div>
-        <div class="pp">$79<small>/month</small></div>
-        <div class="pd">Get matched to the right families and stand out.</div>
-        <ul><li>Priority placement in matches</li><li>Full NEL-mapped profile + photos</li><li>Trial-booking requests</li><li>Monthly demand insights for your area</li></ul>
-        <a class="btn btn-primary" href="#centres">Get listed</a>
+        <span class="rib">Free for centres</span>
+        <div class="pt">Centre · Listed</div>
+        <div class="pp">Free</div>
+        <div class="pd">Every real centre is listed free — claim and keep it current.</div>
+        <ul><li>Always listed, no cost</li><li>NEL-mapped profile</li><li>Appear in best-fit matches</li><li>Update your details anytime</li></ul>
+        <a class="btn btn-primary" href="#centres" onclick="openCentre(event)">Claim your listing</a>
       </div>
       <div class="price">
         <div class="pt">Centre · Pay-per-lead</div>
         <div class="pp">from $8<small>/lead</small></div>
-        <div class="pd">Only pay when a matched parent reaches out.</div>
-        <ul><li>Free basic listing</li><li>Pay only for warm, matched leads</li><li>NEL-mapped profile</li><li>No monthly commitment</li></ul>
-        <a class="btn btn-ghost" href="#centres">Start free</a>
+        <div class="pd">Only pay when a matched parent actually enquires.</div>
+        <ul><li>No monthly fee — pay per warm lead</li><li>Lead details sent straight to you</li><li>Optional featured boost (labelled sponsored)</li><li>Cancel anytime</li></ul>
+        <a class="btn btn-ghost" href="#centres" onclick="openCentre(event)">Get leads</a>
       </div>
     </div>
   </section>
@@ -328,8 +345,17 @@ footer b{color:var(--ink2)}
 
   <footer>
     <div><b>Bloom</b> · enrichment, matched · for Singapore parents of 4–8 year-olds</div>
-    <div style="margin-top:8px;font-size:11.5px;color:var(--faint)"><span id="dataMeta"></span>Centres shown are real Singapore enrichment providers, matched to your child. Prices are typical monthly estimates and change often — always confirm current fees, schedules and locations with the centre. NEL = Nurturing Early Learners (MOE preschool framework, ages 4–6); ages 7–8 follow lower-primary outcomes. Visit a centre and trust your own judgement before enrolling.</div>
+    <div style="margin-top:10px;font-size:12px;color:var(--ink2);max-width:760px;margin-left:auto;margin-right:auto"><b>How Bloom stays honest:</b> centres are listed free and ranked purely by fit for your child — never by who pays. Bloom earns only when a centre chooses to receive a parent's enquiry (pay-per-lead) or to feature; featured slots are always labelled. <b>“Bloom's take”</b> on each centre is our own plain-English summary, not a paid review.</div>
+    <div style="margin-top:8px;font-size:11.5px;color:var(--faint)"><span id="dataMeta"></span>Centres shown are real Singapore enrichment providers, matched to your child. Prices are typical monthly estimates and change often — always confirm current fees, schedules and locations with the centre. NEL = Nurturing Early Learners (MOE preschool framework, ages 4–6); ages 7–8 follow lower-primary outcomes. When you enquire, Bloom shares your details with the relevant centre so they can reply; we don't sell your data. Visit a centre and trust your own judgement before enrolling.</div>
   </footer>
+</div>
+
+<!-- LEAD / SIGNUP MODAL -->
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-card">
+    <button class="mclose" onclick="closeModal()" aria-label="Close">✕</button>
+    <div id="modalBody"></div>
+  </div>
 </div>
 
 <script>
@@ -351,8 +377,60 @@ fetch('classes.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   const m=document.getElementById('dataMeta');
   if(m){const dt=new Date(d.generated); const mo=dt.toLocaleString('en-GB',{month:'short',year:'numeric'});
     m.textContent=d.count+' real Singapore centres · updated '+mo+'. ';}
+  const cs=document.getElementById('cstatCount'); if(cs) cs.textContent=d.count;
 }).catch(()=>{});
 function regLabel(c){ return c.regs.length>=5 ? 'Islandwide' : c.regs.join(' · '); }
+
+// ---- Lead funnel ----------------------------------------------------------
+// MVP capture: opens the visitor's mail app pre-filled to Bloom's inbox, so
+// leads work today with zero backend. To upgrade to silent capture, set
+// LEAD_ENDPOINT to a Formspree/Supabase URL and the code will POST instead.
+const LEAD_EMAIL='evergrow11@gmail.com';
+const LEAD_ENDPOINT='';
+function esc(s){return (s||'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));}
+function openModal(html){document.getElementById('modalBody').innerHTML=html;document.getElementById('modal').classList.add('show');}
+function closeModal(){document.getElementById('modal').classList.remove('show');}
+function openEnquire(i){
+  const c=(window._shown&&window._shown[i]||{}).c; if(!c) return;
+  const centre=c.prov+' — '+c.n;
+  openModal(`
+    <h3>Enquire about ${esc(c.prov)}</h3>
+    <div class="msub">${esc(c.n)} · ${esc(regLabel(c))}. Bloom passes your enquiry to the centre so they can reply with class times, fees and availability.</div>
+    <input type="hidden" id="f_centre" value="${esc(centre)}">
+    <label class="fl">Your name</label><input id="f_name" placeholder="e.g. Mrs Tan">
+    <label class="fl">Email or mobile</label><input id="f_contact" placeholder="So the centre can reach you">
+    <label class="fl">Child's age</label><input id="f_age" value="${sel.age}">
+    <label class="fl">Preferred area</label><input id="f_area" value="${esc(sel.region)}">
+    <label class="fl">Anything to add? (optional)</label><textarea id="f_msg" placeholder="e.g. weekend slots, trial class"></textarea>
+    <label class="consent"><input type="checkbox" id="f_consent"> I'm happy for Bloom to share these details with the centre so they can contact me.</label>
+    <button class="subbtn" onclick="submitEnquiry()">Send enquiry →</button>
+    <div class="mnote">Free for parents. No account needed.</div>`);
+}
+function openCentre(ev){ if(ev&&ev.preventDefault)ev.preventDefault();
+  openModal(`
+    <h3>List your centre on Bloom</h3>
+    <div class="msub">Being listed is free. Tell us about your centre and we'll set up (or update) your profile — and start sending you matched parent enquiries.</div>
+    <label class="fl">Centre name</label><input id="f_centre" placeholder="Your centre / brand">
+    <label class="fl">Your name</label><input id="f_name" placeholder="Contact person">
+    <label class="fl">Email or mobile</label><input id="f_contact" placeholder="Best way to reach you">
+    <label class="fl">Website (optional)</label><input id="f_area" placeholder="https://">
+    <label class="fl">What do you offer? (optional)</label><textarea id="f_msg" placeholder="Programmes, ages, areas/branches"></textarea>
+    <label class="consent"><input type="checkbox" id="f_consent" checked> I'd like Bloom to list my centre and send matched enquiries.</label>
+    <button class="subbtn" onclick="submitCentre()">List my centre →</button>
+    <div class="mnote">Free to be listed · pay only per lead · no lock-in.</div>`);
+}
+function gather(){return {centre:val('f_centre'),name:val('f_name'),contact:val('f_contact'),age:val('f_age'),area:val('f_area'),msg:val('f_msg'),consent:document.getElementById('f_consent').checked};}
+function val(id){const e=document.getElementById(id);return e?e.value.trim():'';}
+function send(kind,d){
+  const subject='Bloom '+(kind==='centre'?'centre signup':'enquiry')+': '+(d.centre||'');
+  const lines=[`Type: ${kind}`,`Centre: ${d.centre}`,d.name&&`Name: ${d.name}`,d.contact&&`Contact: ${d.contact}`,d.age&&`Child age: ${d.age}`,d.area&&((kind==='centre'?'Website: ':'Area: ')+d.area),d.msg&&`Notes: ${d.msg}`].filter(Boolean).join('\n');
+  if(LEAD_ENDPOINT){ fetch(LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({kind,...d})}).catch(()=>{}); }
+  else { window.location.href='mailto:'+LEAD_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines); }
+}
+function thanks(msg){ openModal(`<h3>Thank you 🌸</h3><div class="msub">${msg}</div><button class="subbtn" onclick="closeModal()">Done</button>`); }
+function submitEnquiry(){ const d=gather(); if(!d.name||!d.contact){alert('Please add your name and a contact.');return;} if(!d.consent){alert('Please tick the box so we can pass your enquiry on.');return;} send('parent',d); thanks(`Your enquiry about <b>${esc(d.centre)}</b> is on its way. If your mail app opened, just hit send. We'll connect you with the centre.`); }
+function submitCentre(){ const d=gather(); if(!d.centre||!d.contact){alert('Please add your centre name and a contact.');return;} send('centre',d); thanks(`Thanks for listing <b>${esc(d.centre)}</b>. If your mail app opened, just hit send and we'll be in touch.`); }
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
 let sel={age:5,region:'East',focus:new Set(['language','social']),budget:200};
 
@@ -404,6 +482,7 @@ function findMatches(noScroll){
   else if(sort==='region') arr.sort((a,b)=>REGIONS.indexOf(a.c.regs[0])-REGIONS.indexOf(b.c.regs[0])||b.score-a.score);
   else if(sort==='name') arr.sort((a,b)=>a.c.prov.localeCompare(b.c.prov));
   const wantLabels=[...sel.focus].map(f=>FOCUS[f].label);
+  window._shown=arr;
   const cards=arr.map((r,i)=>{
     const c=r.c, col=r.hit.length?FOCUS[r.hit[0]].c:'#9a86f5';
     const rankno = sort==='fit' ? `<span class="rankno">#${i+1}</span>` : '';
@@ -422,6 +501,7 @@ function findMatches(noScroll){
         <div class="rwhy">✨ Why it fits: ${why.join(', ')}.</div>
         <div class="rrev"><b>Bloom's take:</b> ${c.rev}</div>
         <div class="rchips">${chips}</div>
+        <button class="enqbtn" onclick="openEnquire(${i})">Enquire / request a trial →</button>
       </div></div>`;
   }).join('');
 
