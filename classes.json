@@ -1,0 +1,2904 @@
+{
+ "generated": "2026-06-13",
+ "count": 122,
+ "note": "Real Singapore enrichment providers, researched. Prices are typical monthly estimates and change often — confirm with the centre.",
+ "classes": [
+  {
+   "n": "English & Mandarin Drama",
+   "prov": "A*Speech",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    6
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Bilingual creative-drama focus on body language and imaginative roleplay for the youngest learners.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Abacus Program",
+   "prov": "Abakus Centre",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 280,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Reflectiveness"
+   ],
+   "trial": true,
+   "rev": "Boutique two-outlet abacus centre in Bukit Timah and Katong; small groups but among the priciest abacus options.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Art Classes",
+   "prov": "Abrakadoodle",
+   "regs": [
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 232,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": true,
+   "rev": "Process-art franchise that rotates through real artists and styles, with a gallery share at the end of each session.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Little Presenters",
+   "prov": "Absolute Minds",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    6
+   ],
+   "price": 150,
+   "f": [
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Short weekly preschool sessions drilling speech through tongue twisters and role-play.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Speech & Drama",
+   "prov": "ACT 3 Drama Academy",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": 140,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Singapore's first dedicated children's drama academy, with story-based classes for toddlers up; reliable but on the pricier side.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Group Gymnastics",
+   "prov": "Alpha Gymnastics",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "East-side gym offering cheap $15 trial classes, a low-risk way to test if your child takes to it.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Drama For The Young",
+   "prov": "Apple Pie Language",
+   "regs": [
+    "West"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Award-winning Chinese speech and drama that leans on crafts, songs and props to keep young kids engaged.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Themed Art Courses",
+   "prov": "Artary",
+   "regs": [
+    "North",
+    "North-East",
+    "West"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "Award-winning chain that wraps fine-art technique in games, stories and songs; membership-based so commitment is expected.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Art Classes & Jams",
+   "prov": "Artify Studio",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 45,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Engagement",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Keeps a tight one-instructor-to-four-children ratio, so kids get genuine individual guidance.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Kinder Gym",
+   "prov": "Asia Gymnastics Academy",
+   "regs": [
+    "North-East"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Based at Orchid Country Club with a clear beginner-to-advanced ladder; location may be a stretch for non-northeast families.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "General Gymnastics",
+   "prov": "BazGym",
+   "regs": [
+    "West"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Runs out of HomeTeamNS and SAFRA clubhouses and notably caters to special-needs gymnasts too.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Gymnastics & Movement",
+   "prov": "Beary Fun Gym",
+   "regs": [
+    "East",
+    "West"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 171,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "A long-running, affordable recreational gym across pools and community clubs; strong on playful coordination rather than competitive polish.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Preschool Chinese",
+   "prov": "Berries World of Learning",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Well-known Chinese enrichment with songs and storytelling across 20+ malls; very accessible.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Abacus School",
+   "prov": "Brain Power Abacus School",
+   "regs": [
+    "West"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 188,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "West-side abacus specialist with a free trial and assessment; handy for Jurong/Clementi but region-limited.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "LEGO STEM Classes",
+   "prov": "Bricks 4 Kidz",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 220,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "Franchise model means easy access islandwide; LEGO-driven and light on actual coding.",
+   "src": "bricks4kidz.sg"
+  },
+  {
+   "n": "Young Learners English",
+   "prov": "British Council",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Qualified native-standard teachers and small groups; trusted but expensive and limited locations.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "Kindergym",
+   "prov": "Bubbles Gymnastics",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 40,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "A Holland Village mainstay with a clear progression from Kindergym into recreational and competitive tracks.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Drama & Musical Theatre",
+   "prov": "Centre Stage School of the Arts",
+   "regs": [
+    "North-East",
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 157,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Long-running studio with internationally trained teachers and an early-childhood creative-play track.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "2D & 3D Art",
+   "prov": "Chalk n Pencils",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Choice-based approach lets children pick their own projects; suits self-directed kids more than those wanting structure.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Mandarin Language Learners",
+   "prov": "Chengzhu Mandarin Centre",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language",
+    "creative"
+   ],
+   "disp": [
+    "Appreciation",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Speech-and-drama approach to Mandarin from the Julia Gabriel group; immersive but premium.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "LEGO Robotics & Engineering",
+   "prov": "Children's Worklab",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Veteran centre with small classes; strong on building, less obviously on coding.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Abacus Learning",
+   "prov": "Chong's Abacus Learning Centre",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 150,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Veteran, well-priced abacus school across Toa Payoh/Bishan/Novena; no-frills and traditional.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Abacus & Mental Arithmetic",
+   "prov": "CMA Singapore",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 170,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Long-established dual-hand abacus chain with the widest island footprint; effective for speed but drill-heavy.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Scratch & Robotics",
+   "prov": "Coding Lab",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    7,
+    9
+   ],
+   "price": 300,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Award-winning and rigorous, but it skews older (7+) and academic rather than play-led.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Jolly Phonics & Orton-Gillingham",
+   "prov": "Curious Thoughts Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Multi-sensory approach with rare dyslexia-intervention training; strong for struggling readers.",
+   "src": "skoopsg.com"
+  },
+  {
+   "n": "Robotics (QUACK Method)",
+   "prov": "Duck Learning",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 250,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Official LEGO Education and KUBO partner, so the kit and curriculum are legit.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "LEGO Engineering",
+   "prov": "e2 Young Engineers",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 200,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Learn-by-doing with LEGO models lands well for the 4-6 crowd; lighter on real coding.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Early Childhood Music",
+   "prov": "Edvox Music School",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    5
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Dual piano-and-violin early-years track, though it caps out around age five.",
+   "src": "honeykidsasia.com"
+  },
+  {
+   "n": "Coding & Robotics",
+   "prov": "Empire Code",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 270,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "Wide age range and a free trial; framing leans hard on DSA portfolio prep even for little ones.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Kinder Gymnastics",
+   "prov": "Fly Once Gymnastics",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Covers both artistic and rhythmic gymnastics across community venues, though the youngest classes start at five.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "9-Bead Abacus Program",
+   "prov": "Fun with Abacus",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 160,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Structured 10-level 9-bead abacus course across heartland outlets; solid progression but traditional and repetitive.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Abacus Mental Arithmetic",
+   "prov": "Genius R Us Abacus Academy",
+   "regs": [
+    "North-East",
+    "East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 190,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Five eastern/central outlets with transparent pricing and a refundable trial; classic mental-arithmetic drilling.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Visual Art & Cartoons",
+   "prov": "Global Art",
+   "regs": [
+    "North",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Perseverance",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Long-running structured curriculum spanning painting, handicrafts and comics; methodical rather than free-spirited.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Speech & Drama",
+   "prov": "Graces Speech & Drama Studio",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Non-profit studio offering a structured ladder from foundation to diploma levels.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Theatre Workshops",
+   "prov": "Haque Centre of Acting & Creativity",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Values-led acting workshops emphasising authenticity and empathy over polished performance.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Right-Brain & Math",
+   "prov": "Heguru Education Centre",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 375,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Fast-paced right-brain programme with flash-based numeracy; engaging for very young kids but expensive.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Drama Programmes",
+   "prov": "Helen O'Grady",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 110,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Globally franchised drama curriculum pitched at life-skills and confidence rather than stage careers.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Early Art Classes",
+   "prov": "HiArt",
+   "regs": [
+    "North",
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Instructors work closely with each child regardless of ability, with branches sited in malls islandwide.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Playgroup & Preschool Chinese",
+   "prov": "Hua Language Centre",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Appreciation",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Established Mandarin centre (since 1992) in four malls; foundational skills then MOE-aligned later.",
+   "src": "hua.com.sg"
+  },
+  {
+   "n": "Pre-Reading & Reading",
+   "prov": "I Can Read",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Confidence-focused programme with digital tools and virtual options; very widely available.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "LEGO Mindstorms & STEM",
+   "prov": "IN3LABS",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Adaptive, proficiency-based curriculum is a plus; orientation tilts toward competitions.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Multi-Sports Academy",
+   "prov": "Infiniti Kids",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": null,
+   "f": [
+    "active",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Preschool-focused multi-sport classes built around fundamental movement skills before introducing specific sports.",
+   "src": "infinitikids.sg"
+  },
+  {
+   "n": "Phonics Programme",
+   "prov": "Jan & Elly",
+   "regs": [
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    7
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Play-filled phonics with songs and visuals that builds a solid early reading base; only a few outlets.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Music Explorer Program",
+   "prov": "Joy Music Studio",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    6
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Small-group taster of singing, keyboard, percussion, ukulele and violin before committing to one instrument.",
+   "src": "honeykidsasia.com"
+  },
+  {
+   "n": "Speech, Performance & Debate",
+   "prov": "Julia Gabriel Centre",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 167,
+   "f": [
+    "language",
+    "social",
+    "creative"
+   ],
+   "disp": [
+    "Engagement",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Premium EduDrama methodology with strong communication outcomes, but among the most expensive options.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Junior Musician",
+   "prov": "JuzAcademy",
+   "regs": [
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    6
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Introduces both piano and violin to 4-6s, a solid way to test which instrument actually sticks.",
+   "src": "honeykidsasia.com"
+  },
+  {
+   "n": "Kindermusik",
+   "prov": "Kindermusik With Love Studios",
+   "regs": [
+    "North-East",
+    "East",
+    "Central"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Globally recognised play-based music-and-movement programme with several mall studios and a virtual option.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "App & Game Coding",
+   "prov": "Kodecoon Academy",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 270,
+   "f": [
+    "discovery"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Project-based with a real-world bent; young-age fit is plausible but not clearly stated.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Reading Programme",
+   "prov": "Kumon",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    6
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Self-paced worksheet method building vocabulary and recall; effective but repetitive, not play-based.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Foundation, LaunchPad & LiftOff",
+   "prov": "LCentral",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Scaffolded three-stage reading path across many outlets; methodical rather than flashy.",
+   "src": "skoopsg.com"
+  },
+  {
+   "n": "Super Speakers",
+   "prov": "Learning Journey",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 200,
+   "f": [
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "A short two-day workshop format for a confidence boost rather than ongoing weekly training.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Literacy Programmes",
+   "prov": "Lil' Sunshine Learning Centre",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Seven-level reading ladder from letters to multisyllabic words; clear progression, niche centre.",
+   "src": "skoopsg.com"
+  },
+  {
+   "n": "Fine Arts Classes",
+   "prov": "Little Artists Art Studio",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Perseverance",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Award-winning East-Coast studio that also accommodates children with learning differences; fairly far east.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Phonics & Reading",
+   "prov": "Little Readers",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Long-running (since 1993) phonics centre with experienced teachers; small and old-school.",
+   "src": "skoopsg.com"
+  },
+  {
+   "n": "Fun with Phonics",
+   "prov": "Lorna Whiston",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Long-established centre with strong teacher quality and multisensory lessons; premium positioning.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Speech & Drama",
+   "prov": "Lorna Whiston School",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "language",
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Well-established communicator-focused programmes spanning preschool to advanced levels.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Speech & Drama with Public Speaking",
+   "prov": "LoveKids",
+   "regs": [
+    "North-East"
+   ],
+   "a": [
+    4,
+    6
+   ],
+   "price": null,
+   "f": [
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Confidence-building blend of speech, drama and EQ aimed at nursery to K2.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Coding & AI",
+   "prov": "Lyza Education",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": null,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Engagement",
+    "Reflectiveness"
+   ],
+   "trial": true,
+   "rev": "A robot companion and progress-tracking app make it feel modern for early learners.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Music, Art, Drama & Dance",
+   "prov": "MADDSpace",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Multi-discipline arts programme combining drama with music and dance under experienced directors.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Vedic Math & Games",
+   "prov": "Math Monkey",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 230,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Game-based Vedic-math approach that keeps young kids engaged through play; fun, though shortcuts diverge from the MOE syllabus.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Abacus Mental Arithmetic",
+   "prov": "MathAbility Abacus",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 175,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Three north-east/central outlets with mid-range fees and a small trial; reliable drilling without frills.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Early Math Play",
+   "prov": "Matrix Math",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    7
+   ],
+   "price": null,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Play-based early-concept maths aimed at preschoolers; gentle and exploratory, thin public detail.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Phonics, Reading & Writing",
+   "prov": "Merry Minds Enrichment Centre",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": 100,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": true,
+   "rev": "Tiny classes (max 6, two staff) and trilingual support; single East Coast location limits access.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "LEGO to AI Robotics",
+   "prov": "Meta Robotics",
+   "regs": [
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 250,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Takes kids as young as 3 with a hands-on path up to AI; good fit for the youngest.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Phonics & Oxford Reading Tree",
+   "prov": "Metamore Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    7
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Systematic 42-sound phonics with structured book progression; solid traditional method.",
+   "src": "skoopsg.com"
+  },
+  {
+   "n": "Phonics & Reading",
+   "prov": "Mind Stretcher",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Tuition-chain phonics with proprietary books across many outlets; leans academic.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Math Enrichment (3-Mind)",
+   "prov": "MindChamps Maths",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 300,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Premium brand pairing heuristics with a critical-thinking pitch; polished but priced high.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Reading Programme",
+   "prov": "MindChamps Reading",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": true,
+   "rev": "Big chain with a structured, assessment-first literacy curriculum; reliable but corporate and pricey.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "Model Math",
+   "prov": "Model Math",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Single-location, MOE-aligned hands-on maths at SAFRA Toa Payoh; convenient there but limited reach.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Social Skills & Etiquette",
+   "prov": "Molly Manners",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "social"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Interactive etiquette and resilience lessons focused on social skills more than performance.",
+   "src": "yipee.sg"
+  },
+  {
+   "n": "Music & Movement",
+   "prov": "Muse Arts",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "active"
+   ],
+   "disp": [
+    "Engagement",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Combines music, dance and drama for preschoolers; good for active kids who learn best by moving.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Art Classes for Kids",
+   "prov": "MuzArt",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Joo Chiat studio catering to ages 3-12 with a warm, kid-focused vibe popular with eastside parents.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Art Jams & Classes",
+   "prov": "My Art Pencil",
+   "regs": [
+    "North-East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Works from the belief that art is a learnable skill, with a relaxed Hougang space that doubles for parties.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Ability-based Reading Programme",
+   "prov": "My English School",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    6
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": true,
+   "rev": "Five-element literacy curriculum with classes capped at 10; free assessment helps level matching.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Gym & Movement",
+   "prov": "My Gym",
+   "regs": [
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": 65,
+   "f": [
+    "active",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": true,
+   "rev": "A well-known franchise with four outlets and structured age-banded classes; great energy but franchise pricing adds up.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Junior Drama (Bilingual)",
+   "prov": "NAFA Junior Drama",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language"
+   ],
+   "disp": [
+    "Appreciation",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Arts-school-grade bilingual drama blending artistic growth with language development.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "LEGO Robotics & Coding",
+   "prov": "Nullspace Robotics",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    6,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Perseverance"
+   ],
+   "trial": true,
+   "rev": "Long-running robotics specialist; the youngest tier starts around 6, so the 4-5 set is out.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Music & Movement",
+   "prov": "Our Music Studio",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Tanglin studio with age-banded classes from babies to age seven, blending singing, instruments and movement.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Recreational Gymnastics",
+   "prov": "Power Kids Gym",
+   "regs": [
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Solid mall-based recreational gym with holiday camps and parties; pricing isn't published so you'll need to enquire.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Developmental Gymnastics",
+   "prov": "Prime Gymnastics Club",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 163,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Toa Payoh club leaning toward artistic gymnastics; the per-term fee is on the higher side for casual learners.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Speech Excellence",
+   "prov": "Public Speaking Academy",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    7,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Structured world-champion-led method with a cheap trial, though core age skews older than 8.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Speed Math & Abacus",
+   "prov": "Quantum Speed Math & Abacus",
+   "regs": [
+    "North",
+    "East",
+    "Central"
+   ],
+   "a": [
+    6,
+    9
+   ],
+   "price": 160,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "In-person and cheaper online abacus classes with a free session; flexible, but skews age 6 and up.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Diverse Art Packages",
+   "prov": "Rafayet Studio",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Pasir Ris studio that pairs art-making with confidence and problem-solving; handy for far-east families.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Recreational Gymnastics",
+   "prov": "Raffles Gymnastics Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Bukit Timah academy with both recreational and serious competitive pathways, suiting kids who may want to progress.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "3-in-1 Phonics, Reading & Spelling",
+   "prov": "Read in a Week",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Fast, results-driven course promising 500 words in six sessions; bold claim, intensive pacing.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Multi-Sports",
+   "prov": "Ready Steady Go Kids",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    6
+   ],
+   "price": null,
+   "f": [
+    "active",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": true,
+   "rev": "A physio-designed, non-competitive programme teaching ten sports across 50+ preschools, ideal for building broad movement basics under age six.",
+   "src": "littlestepsasia.com"
+  },
+  {
+   "n": "Rhythmic Gymnastics",
+   "prov": "Releve Gym & Dance",
+   "regs": [
+    "North-East",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active",
+    "creative"
+   ],
+   "disp": [
+    "Appreciation",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "One of the few centres focused on rhythmic gymnastics, blending dance-like artistry with athletic discipline.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Coding & Robotics Roadmap",
+   "prov": "Roboto Coding Academy",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "MOE-aligned progression is a selling point but the youngest classes really begin at 5.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Project-Based Coding",
+   "prov": "Saturday Kids",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 270,
+   "f": [
+    "discovery"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Genuinely exploratory and creativity-first, though one main campus limits convenience.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "KidsSTOP & STEM Workshops",
+   "prov": "Science Centre Singapore",
+   "regs": [
+    "West"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": null,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Hands-on exhibits are excellent for young kids but it's drop-in workshops, not a steady weekly class.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Speech & Drama with Musical Theatre",
+   "prov": "Seimpi Education",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Award-winning bilingual centre focused on confidence and expressive performance.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Singapore Maths",
+   "prov": "Seriously Addictive Mathematics (S.A.M)",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Perseverance",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Self-paced worksheet-based Singapore Math with strong heuristics and problem-solving; broad coverage, though the self-directed format suits self-motivated kids more.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Right-Brain & Math",
+   "prov": "Shichida Education Centre",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": 330,
+   "f": [
+    "numbers",
+    "discovery"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Reflectiveness"
+   ],
+   "trial": true,
+   "rev": "Premium right-brain method weaving in number and memory work; strong on early stimulation but pricey.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Rising Stars & Musical Theatre",
+   "prov": "Sing'Theatre Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 163,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Vocals-and-movement musical-theatre track culminating in end-of-year public performances.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Kidz Talking (Drama & Speech)",
+   "prov": "Singapore Media Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": 357,
+   "f": [
+    "language",
+    "social",
+    "creative"
+   ],
+   "disp": [
+    "Engagement",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Mediacorp-backed programme using storytelling and drama for speech skills, but term fees run high.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Abacus Brain Training",
+   "prov": "SIP Abacus",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 165,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Heartland-focused abacus chain with a free first session; affordable and steady, purely arithmetic.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Young Science Explorers",
+   "prov": "Skool4Kidz",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    7
+   ],
+   "price": null,
+   "f": [
+    "discovery"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Observe-question-experiment approach built into a preschool, so it's gentle and age-right.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "Speech-focused Phonics & Reading",
+   "prov": "Speech Academy Asia",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "social",
+    "language",
+    "creative"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Pairs phonics with public-speaking confidence; good for shy readers, less for pure decoding.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Dramatic Speech & Creative Enrichment",
+   "prov": "Stage For Kids Global",
+   "regs": [
+    "West"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 123,
+   "f": [
+    "creative",
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Story-driven 'speak up and stand tall' approach with a clear emotional-intelligence emphasis.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Early STEM & Robotics",
+   "prov": "STEM Genius",
+   "regs": [
+    "North",
+    "North-East",
+    "West"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 250,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "Broad STEM menu including VR; preschool coverage is real but heartland-only locations.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Multilingual Speech & Drama",
+   "prov": "Tamasha by Deepika Rajani",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "language"
+   ],
+   "disp": [
+    "Appreciation",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Trinity College London partner offering drama in English, Hindi and Mandarin.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Scratch & Robotics",
+   "prov": "The Brainery Code",
+   "regs": [
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": null,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Inventiveness"
+   ],
+   "trial": true,
+   "rev": "Competition-pedigree centre; no published ages so younger fit is unconfirmed.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Drawing & Personalization",
+   "prov": "The Drawing Mint",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Reflectiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Small-group classes built around independence and reflection, drawing out each child's own personality.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Inquiry Science",
+   "prov": "The Einstein Factor",
+   "regs": [
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 230,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Reflectiveness"
+   ],
+   "trial": null,
+   "rev": "Inquiry-based experiments suit curious preschoolers, with preschool and lower-primary tracks.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Phonics Programme",
+   "prov": "The Eton Academy",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    6
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Curiosity-driven phonics with songs and parent feedback; warm and child-led.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Scratch & LEGO Robotics",
+   "prov": "The Lab",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 230,
+   "f": [
+    "discovery",
+    "numbers"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Playground-style setup with a clear block-to-Python path and competition results to back it.",
+   "src": "littledayout.com"
+  },
+  {
+   "n": "Structured Phonics Approach",
+   "prov": "The Learning Lab",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Rigorous 'encode, retrieve, apply' literacy from a high-end tuition brand; academically intense.",
+   "src": "sunnycitykids.com"
+  },
+  {
+   "n": "Gymnastics for Preschoolers",
+   "prov": "The Little Gym",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Polished Orchard-based programme with a clear curriculum; premium positioning means it's pricier than community-club options.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Early Childhood Music Pathway",
+   "prov": "The Music Circle",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    5
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Perseverance",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Lays a structured musical foundation for under-fives, aimed at families serious about eventual instrument study.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Drama & Creative Storytelling",
+   "prov": "The Theatre Practice",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 133,
+   "f": [
+    "creative",
+    "language",
+    "social"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Bilingual English/Mandarin programme built around imagination, empathy and language fluency.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Gymnastics & Parkour",
+   "prov": "The Yard",
+   "regs": [
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Multiple outlets combining gymnastics, parkour and trampoline; a good fit for kids who like to climb and tumble freely.",
+   "src": "sg.theasianparent.com"
+  },
+  {
+   "n": "Preschool Chinese",
+   "prov": "Tien Hsia Language School",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Perseverance",
+    "Appreciation"
+   ],
+   "trial": null,
+   "rev": "Specialist Mandarin school with 11 islandwide outlets; structured and exam-oriented as kids grow.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "StoryPlay & Speech & Drama",
+   "prov": "Treble Bass",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative",
+    "social",
+    "language"
+   ],
+   "disp": [
+    "Sense of wonder & curiosity",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Performing-arts provider with a gentle StoryPlay-to-speech progression from infancy up.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "Multiple Disciplines",
+   "prov": "TREE ART",
+   "regs": [
+    "East",
+    "Central"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Imaginative studio covering painting, sculpture and ceramics, so kids get genuine variety.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Funfit Gymnastics",
+   "prov": "Tumble Joy Gymnastics",
+   "regs": [
+    "East"
+   ],
+   "a": [
+    3,
+    9
+   ],
+   "price": 156,
+   "f": [
+    "active"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Tampines Hub gym with discounted trial classes; the term commitment of 11 lessons plus a registration fee is worth checking before signing.",
+   "src": "littlestepsasia.com"
+  },
+  {
+   "n": "Abacus & Mental Arithmetic",
+   "prov": "UCMAS",
+   "regs": [
+    "North",
+    "North-East",
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    4,
+    9
+   ],
+   "price": 175,
+   "f": [
+    "numbers"
+   ],
+   "disp": [
+    "Perseverance",
+    "Engagement"
+   ],
+   "trial": true,
+   "rev": "Globally recognised abacus franchise with 15+ centres and a free assessment; quality can vary by branch.",
+   "src": "skoolopedia.com"
+  },
+  {
+   "n": "Multi-Sports",
+   "prov": "Vivo Kids",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    3,
+    8
+   ],
+   "price": null,
+   "f": [
+    "active",
+    "social"
+   ],
+   "disp": [
+    "Engagement",
+    "Perseverance"
+   ],
+   "trial": null,
+   "rev": "Play-based multi-sport sessions emphasising character and fun over competition, suited to younger or hesitant kids.",
+   "src": "vivokids.sg"
+  },
+  {
+   "n": "Little Explorers",
+   "prov": "We Art",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": null,
+   "f": [
+    "creative"
+   ],
+   "disp": [
+    "Appreciation",
+    "Inventiveness"
+   ],
+   "trial": null,
+   "rev": "Korean-curriculum-inspired classes with an age-banded Little Explorers tier; single Orchard location.",
+   "src": "sassymamasg.com"
+  },
+  {
+   "n": "Drama Classes",
+   "prov": "WILD RICE Academy",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 162,
+   "f": [
+    "creative",
+    "social"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Engagement"
+   ],
+   "trial": null,
+   "rev": "Theatre-company-run classes that empower kids to experiment and make creative decisions.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Read Programme",
+   "prov": "Wonderlit",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    4,
+    8
+   ],
+   "price": null,
+   "f": [
+    "language",
+    "creative"
+   ],
+   "disp": [
+    "Appreciation",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": true,
+   "rev": "Deep phonics paired with genuine literary appreciation; more reading-for-love than drill.",
+   "src": "thenewageparents.com"
+  },
+  {
+   "n": "Robotics & 3D Printing",
+   "prov": "WondersWork",
+   "regs": [
+    "Central"
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "price": 260,
+   "f": [
+    "discovery",
+    "active"
+   ],
+   "disp": [
+    "Inventiveness",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": true,
+   "rev": "Invention-led blend of STEM and making; single hotel-based location is the main catch.",
+   "src": "smiletutor.sg"
+  },
+  {
+   "n": "Zoo-phonics",
+   "prov": "Zoo-phonics School",
+   "regs": [
+    "East",
+    "West",
+    "Central"
+   ],
+   "a": [
+    3,
+    7
+   ],
+   "price": null,
+   "f": [
+    "language"
+   ],
+   "disp": [
+    "Engagement",
+    "Sense of wonder & curiosity"
+   ],
+   "trial": null,
+   "rev": "Playful kinesthetic method using animal-shaped letters; great for active young learners.",
+   "src": "sunnycitykids.com"
+  }
+ ]
+}

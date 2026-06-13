@@ -99,12 +99,14 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rg
 .rmain{flex:1;min-width:0}
 .rtop{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .rtop .rn{font-family:'Fraunces';font-size:18px;font-weight:600;color:var(--ink)}
-.rtop .rp{font-size:13px;font-weight:600;color:var(--berry);margin-left:auto}
+.rtop .rp{font-size:13px;font-weight:600;color:var(--berry);margin-left:auto;white-space:nowrap}
+.rtop .rp .poa{font-size:11px;font-weight:600;color:var(--faint)}
 .rprov{font-size:12.5px;color:var(--muted);margin-top:2px}
 .rprov .badge{display:inline-block;background:var(--bg3);color:#1d9e76;font-weight:600;font-size:10.5px;padding:2px 8px;border-radius:6px;margin-left:6px}
 .rwhy{font-size:13.5px;color:var(--ink2);margin-top:10px;line-height:1.5;background:var(--bg2);border-radius:10px;padding:9px 12px}
 .rwhy b{color:var(--berry)}
-.rrev{font-size:12.5px;color:var(--muted);margin-top:8px;font-style:italic}
+.rrev{font-size:12.5px;color:var(--muted);margin-top:8px}
+.rrev b{color:var(--ink);font-weight:600;font-style:normal}
 .rchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .rchip{font-size:11px;font-weight:600;padding:4px 9px;border-radius:7px;background:#f3effe;color:var(--berry);border:1px solid #e8e0fc}
 
@@ -314,7 +316,7 @@ footer b{color:var(--ink2)}
 
   <footer>
     <div><b>Bloom</b> · enrichment, matched · for Singapore parents of 4–8 year-olds</div>
-    <div style="margin-top:8px;font-size:11.5px;color:var(--faint)">Centres shown are real Singapore enrichment providers, matched to your child. Prices are typical monthly estimates and change often — always confirm current fees, schedules and locations with the centre. NEL = Nurturing Early Learners (MOE preschool framework, ages 4–6); ages 7–8 follow lower-primary outcomes. Visit a centre and trust your own judgement before enrolling.</div>
+    <div style="margin-top:8px;font-size:11.5px;color:var(--faint)"><span id="dataMeta"></span>Centres shown are real Singapore enrichment providers, matched to your child. Prices are typical monthly estimates and change often — always confirm current fees, schedules and locations with the centre. NEL = Nurturing Early Learners (MOE preschool framework, ages 4–6); ages 7–8 follow lower-primary outcomes. Visit a centre and trust your own judgement before enrolling.</div>
   </footer>
 </div>
 
@@ -328,44 +330,16 @@ const FOCUS = {
   discovery:{label:'Discovery & Science',area:'Discovery of the World',ic:'🔭',c:'#f5b184',cb:'#fdf0e7'},
 };
 const REGIONS=['North','North-East','East','West','Central'];
-const ALL=['North','North-East','East','West','Central'];
-// Real Singapore enrichment providers (researched Jun 2026). Prices are typical monthly
-// estimates — many quote per-term; always confirm current fees with the centre.
-const CLASSES=[
-  // Reading & Language
-  {n:'Reading & Writing',prov:'MindChamps',regs:ALL,a:[4,6],price:280,f:['language'],disp:['Engagement','Reflectiveness'],trial:true,rev:'Structured comprehension, not just phonics. 7 centres islandwide. Pricey, but parents report strong reading gains.'},
-  {n:'Phonics Programme',prov:'Jan & Elly',regs:['East','Central','West'],a:[4,6],price:180,f:['language'],disp:['Engagement','Appreciation'],trial:true,rev:'Tiny classes (max 6 kids, 2 teachers) — even shy readers open up fast. Very personalised.'},
-  {n:'Zoo-phonics',prov:'Zoo-phonics Singapore',regs:ALL,a:[4,6],price:160,f:['language','active'],disp:['Engagement','Sense of wonder & curiosity'],trial:true,rev:'Multisensory and playful — great for wigglers who learn best by moving.'},
-  {n:'Ability-Based Reading',prov:'My English School (MES)',regs:ALL,a:[4,6],price:170,f:['language'],disp:['Perseverance','Engagement'],trial:true,rev:'Places kids by actual reading level, so they\'re neither bored nor overwhelmed.'},
-  {n:'Synthetic Phonics',prov:'Read In A Week',regs:ALL,a:[4,8],price:200,f:['language'],disp:['Perseverance'],trial:false,rev:'Intensive synthetic phonics, 20+ centres. Results-focused — lighter on play.'},
-  // Numbers & Thinking
-  {n:'Singapore Maths',prov:'Seriously Addictive Maths (S.A.M)',regs:ALL,a:[4,8],price:240,f:['numbers'],disp:['Perseverance','Reflectiveness'],trial:true,rev:'Self-paced worksheets plus coaching; builds genuinely independent problem-solving.'},
-  {n:'Abacus & Mental Arithmetic',prov:'UCMAS',regs:ALL,a:[5,8],price:180,f:['numbers'],disp:['Perseverance','Engagement'],trial:true,rev:'Mental arithmetic via abacus — strong for focus, memory and calculation speed.'},
-  {n:'Abacus Brain Training',prov:'3G Abacus',regs:ALL,a:[4,8],price:160,f:['numbers'],disp:['Perseverance'],trial:true,rev:'Classic abacus drilling; excellent concentration training for younger ones.'},
-  // Creative & Arts
-  {n:'Speech & Drama (EduDrama)',prov:'Julia Gabriel',regs:['Central','East','North-East'],a:[4,8],price:200,f:['creative','language','social'],disp:['Engagement','Inventiveness'],trial:false,rev:'Premium, polished drama-based learning. Excellent for expression and confidence; on the pricier end (~$545+/term).'},
-  {n:'Drama for Young Children',prov:'Act 3 Drama Academy',regs:['Central','North-East'],a:[4,7],price:180,f:['creative','social'],disp:['Inventiveness','Engagement'],trial:true,rev:'Playful drama that builds thinking and social interaction. Centres at Newton and Punggol.'},
-  {n:'Performing Arts',prov:'Centre Stage School of the Arts',regs:['Central','East'],a:[4,8],price:190,f:['creative','social','language'],disp:['Engagement','Inventiveness'],trial:true,rev:'Warm, engaging classes that nurture a real love of the arts. Portsdown and Marine Parade.'},
-  {n:'Speech & Drama (EN + Chinese)',prov:'Apple Pie Language',regs:['Central'],a:[4,8],price:185,f:['creative','language'],disp:['Engagement','Appreciation'],trial:true,rev:'Award-winning Chinese speech & drama too — good pick for bilingual confidence.'},
-  {n:'Music & Musical Theatre',prov:"Sing'theatre Academy",regs:['Central'],a:[4,8],price:200,f:['creative'],disp:['Sense of wonder & curiosity','Engagement'],trial:true,rev:'Rhythm, song and stagecraft; joyful and high-energy. Near Bugis.'},
-  // Confidence & Social
-  {n:'Drama & Storytelling',prov:'Wild Rice Academy',regs:['Central'],a:[5,8],price:235,f:['social','creative','language'],disp:['Engagement','Reflectiveness'],trial:false,rev:'Storytelling and role-play that genuinely builds confidence and empathy (~$708/term).'},
-  {n:'Public Speaking + SEL',prov:'School of Confidence',regs:['Central'],a:[5,8],price:220,f:['social','language'],disp:['Reflectiveness','Engagement'],trial:true,rev:'Public speaking built on social-emotional pillars — a rare fit for timid kids.'},
-  {n:'Public Speaking (12-week)',prov:'Genius Mind Academy',regs:['Central'],a:[5,8],price:210,f:['social','language'],disp:['Perseverance','Engagement'],trial:true,rev:'Structured 12-week course to beat stage fright; parents report visible confidence jumps.'},
-  {n:'Social Skills & Speaking',prov:'Speech Academy Asia',regs:ALL,a:[5,8],price:200,f:['social','language'],disp:['Engagement','Reflectiveness'],trial:true,rev:'Aimed squarely at kids who struggle to make friends or speak up.'},
-  // Discovery & Science
-  {n:'KidsSTOP Early STEM',prov:'Science Centre Singapore',regs:['West'],a:[4,8],price:150,f:['discovery','numbers'],disp:['Sense of wonder & curiosity','Inventiveness'],trial:false,rev:'Hands-on science play at the Science Centre — real wow moments, workshop format.'},
-  {n:'LEGO Engineering',prov:'e² Young Engineers',regs:ALL,a:[4,8],price:200,f:['discovery','numbers'],disp:['Inventiveness','Perseverance'],trial:true,rev:'Engineering through LEGO models — concrete, build-it learning kids love.'},
-  {n:'Coding & Robotics',prov:'Empire Code',regs:['Central'],a:[4,8],price:240,f:['discovery','numbers'],disp:['Inventiveness','Perseverance'],trial:true,rev:'Beginner-friendly coding from age 4. Small classes at Novena and River Valley.'},
-  {n:'Coding (Curriculum)',prov:'Coding Lab',regs:['East','Central','North-East'],a:[5,8],price:250,f:['discovery','numbers'],disp:['Reflectiveness','Inventiveness'],trial:true,rev:'Well-regarded, logical-thinking-first curriculum. Premium price. Tampines, Bishan, Sengkang.'},
-  {n:'LEGO Robotics',prov:'Roboto Coding Academy',regs:['East','West','Central'],a:[5,8],price:220,f:['discovery','numbers','active'],disp:['Inventiveness','Engagement'],trial:true,rev:'Robotics plus programming with LEGO; hands-on and motivating.'},
-  {n:'STEM @ Community Centres',prov:'KidZ Industries',regs:['East','North','West','North-East'],a:[5,8],price:120,f:['discovery','numbers'],disp:['Inventiveness','Engagement'],trial:false,rev:'Affordable STEM and coding run at community centres — great value entry point.'},
-  // Active & Movement
-  {n:'Gym & Movement',prov:'My Gym',regs:['Central','West','East','North-East'],a:[4,8],price:200,f:['active','social'],disp:['Engagement','Perseverance'],trial:true,rev:'Structured gross-motor play; fun and social, gets the energy out. Great World, Jurong, Tampines, Punggol.'},
-  {n:'Gymnastics & Dance',prov:'The Little Gym',regs:ALL,a:[4,6],price:210,f:['active','creative'],disp:['Perseverance','Engagement'],trial:true,rev:'Gymnastics plus dance; builds coordination and confidence on the mat.'},
-  {n:'Preschool Gymnastics',prov:'BearyFun Gym',regs:['East','Central','North'],a:[4,6],price:190,f:['active'],disp:['Perseverance','Engagement'],trial:true,rev:'Preschool-tailored gymnastics — balance, body control and gross motor.'},
-  {n:'Multi-Sports',prov:'Ready Steady Go Kids',regs:ALL,a:[4,7],price:180,f:['active'],disp:['Perseverance','Engagement'],trial:true,rev:'Physio-designed intro to 10 sports — brilliant all-round motor skills for preschoolers.'},
-];
+const REGIONS_ALL=['North','North-East','East','West','Central'];
+// Centres load from data/classes.json (built by data/build.py from researched
+// directory data). Prices are typical monthly estimates — confirm with the centre.
+let CLASSES=[];
+fetch('classes.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  CLASSES=d.classes||[];
+  const m=document.getElementById('dataMeta');
+  if(m){const dt=new Date(d.generated); const mo=dt.toLocaleString('en-GB',{month:'short',year:'numeric'});
+    m.textContent=d.count+' real Singapore centres · updated '+mo+'. ';}
+}).catch(()=>{});
 function regLabel(c){ return c.regs.length>=5 ? 'Islandwide' : c.regs.join(' · '); }
 
 let sel={age:5,region:'East',focus:new Set(['language','social']),budget:200};
@@ -390,9 +364,11 @@ function scoreClass(c){
   // region
   const regMatch = c.regs.includes(sel.region);
   if(regMatch){ s+=16; } else { s+=6; }
-  // budget
-  const within = sel.budget>=250 ? true : c.price<=sel.budget;
-  if(within){ s+=10; } else { s+=Math.max(0,8-(c.price-sel.budget)/12); }
+  // budget (price may be unknown → stay neutral, never claim "within budget")
+  let within;
+  if(c.price==null){ within=null; s+=6; }
+  else if(sel.budget>=250 || c.price<=sel.budget){ within=true; s+=10; }
+  else { within=false; s+=Math.max(0,8-(c.price-sel.budget)/12); }
   s=Math.round(Math.max(38,Math.min(98,s)));
   return {score:s, fits, hit, within, regMatch};
 }
@@ -406,16 +382,16 @@ function findMatches(){
     why.push(r.fits?`a great age fit for your <b>${sel.age}-year-old</b>`:`runs for ages ${c.a[0]}–${c.a[1]}`);
     if(r.hit.length) why.push(`covers <b>${r.hit.map(h=>FOCUS[h].label).join(' & ')}</b>`);
     why.push(r.regMatch?`has a centre in the <b>${sel.region}</b>`:`nearest centres in ${regLabel(c)}`);
-    if(r.within) why.push('within your budget');
+    if(r.within===true) why.push('within your budget');
     const chips=[...new Set(c.f.map(f=>FOCUS[f].area)).values()].map(a=>`<span class="rchip">🌸 ${a}</span>`).join('')
       + c.disp.slice(0,2).map(d=>`<span class="rchip">${d}</span>`).join('');
     return `<div class="rcard" style="--c:${col}">
       <div class="matchring" style="background:conic-gradient(${col} ${r.score}%, #f1edf7 0)"><div class="inner"><span class="mv">${r.score}</span><span class="ml">match</span></div></div>
       <div class="rmain">
-        <div class="rtop"><span class="rn">${c.n}</span><span class="rp">$${c.price}/mo</span></div>
+        <div class="rtop"><span class="rn">${c.n}</span><span class="rp">${c.price?('$'+c.price+'<small>/mo</small>'):'<span class="poa">Fees on enquiry</span>'}</span></div>
         <div class="rprov">${c.prov} · ${regLabel(c)}${c.trial?'<span class="badge">Free trial</span>':''}</div>
         <div class="rwhy">✨ Why it fits: ${why.join(', ')}.</div>
-        <div class="rrev">💬 “${c.rev}”</div>
+        <div class="rrev"><b>Bloom's take:</b> ${c.rev}</div>
         <div class="rchips">${chips}</div>
       </div></div>`;
   }).join('');
