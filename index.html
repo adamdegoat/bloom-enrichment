@@ -81,6 +81,11 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rg
 .fopt .fa{font-size:11px;color:var(--muted)}
 .fopt.on .fi{background:var(--c)}
 .gobtn{width:100%;font-family:'Inter';font-weight:700;font-size:16px;padding:16px;border-radius:16px;border:0;cursor:pointer;background:linear-gradient(120deg,var(--berry),var(--lav));color:#fff;box-shadow:0 12px 26px -10px rgba(108,92,231,.7);transition:transform .12s;margin-top:6px}
+.namesearch{width:100%;font-family:'Inter';font-size:15px;padding:13px 15px;border-radius:13px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink);outline:none;transition:border-color .12s}
+.namesearch:focus{border-color:var(--lav)}
+.namesearch::placeholder{color:var(--faint)}
+.morebtn{display:block;margin:4px auto 18px;font-family:'Inter';font-weight:600;font-size:14px;padding:12px 24px;border-radius:999px;border:1.5px solid #e3dcf2;background:#fff;color:var(--berry);cursor:pointer;transition:background .12s}
+.morebtn:hover{background:#f6f2ff}
 .gobtn:hover{transform:translateY(-1px)}
 
 /* results */
@@ -237,6 +242,10 @@ footer b{color:var(--ink2)}
           <div class="flabel">💰 Monthly budget per class</div>
           <div class="seg" id="budgetSeg"></div>
         </div>
+        <div class="field">
+          <div class="flabel">🔎 Looking for a particular centre? (optional)</div>
+          <input class="namesearch" id="nameSearch" type="text" autocomplete="off" placeholder="e.g. MindChamps, Julia Gabriel, Coding Lab…" oninput="onSearch(this.value)">
+        </div>
         <button class="gobtn" onclick="findMatches()">Find my child's matches →</button>
       </div>
       <div class="results" id="results"><div class="r-inner" id="rInner"></div></div>
@@ -373,12 +382,17 @@ function scoreClass(c){
   return {score:s, fits, hit, within, regMatch};
 }
 
-function findMatches(){
+const SHOW_LIMIT=12;
+function onSearch(v){ sel.q=v; if(document.getElementById('results').classList.contains('show')) findMatches(); }
+function findMatches(showAll){
   // Hard budget filter: drop centres whose KNOWN price is over the cap.
   // "Any budget" (99999) keeps everything. Unknown-price centres are kept
   // (we can't verify) but shown as "Fees on enquiry" and ranked a touch lower.
-  const pool = sel.budget>=99999 ? CLASSES : CLASSES.filter(c=>c.price==null || c.price<=sel.budget);
-  const ranked=pool.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score).slice(0,4);
+  let pool = sel.budget>=99999 ? CLASSES : CLASSES.filter(c=>c.price==null || c.price<=sel.budget);
+  const q=(sel.q||'').trim().toLowerCase();
+  if(q) pool = pool.filter(c=>(c.prov+' '+c.n).toLowerCase().includes(q));
+  const rankedAll=pool.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score);
+  const ranked = showAll ? rankedAll : rankedAll.slice(0,SHOW_LIMIT);
   const wantLabels=[...sel.focus].map(f=>FOCUS[f].label);
   const cards=ranked.map(r=>{
     const c=r.c, col=r.hit.length?FOCUS[r.hit[0]].c:'#9a86f5';
@@ -403,7 +417,7 @@ function findMatches(){
   // coverage across the 6 NEL dimensions, based on the recommended classes
   const dims=Object.keys(FOCUS);
   const covered={}; dims.forEach(d=>covered[d]=0);
-  ranked.forEach(r=>r.c.f.forEach(f=>{covered[f]=Math.min(100,(covered[f]||0)+38)}));
+  rankedAll.slice(0,6).forEach(r=>r.c.f.forEach(f=>{covered[f]=Math.min(100,(covered[f]||0)+38)}));
   // also weight what parent chose
   [...sel.focus].forEach(f=>covered[f]=Math.min(100,covered[f]+20));
   const covRows=dims.map(d=>{
@@ -415,18 +429,32 @@ function findMatches(){
     ? `<b>Worth balancing:</b> these picks lean away from <b>${gaps.join(' & ')}</b>. As your child grows, a class here rounds out their development.`
     : `<b>Nicely balanced.</b> These picks span most of your child's development areas — a healthy spread for ages ${sel.age}.`;
 
+  const res=document.getElementById('results'); res.classList.add('show');
+  if(!rankedAll.length){
+    document.getElementById('rInner').innerHTML=`
+      <div class="r-h">No centres match that</div>
+      <div class="r-sub">${q?`Nothing matched “${q}”`:'Nothing fit those filters'}. Try a higher budget, a different focus, or clear the centre-name box.</div>`;
+    if(showAll===undefined) res.scrollIntoView({behavior:'smooth',block:'start'});
+    return;
+  }
+  const moreBtn = (!showAll && rankedAll.length>SHOW_LIMIT)
+    ? `<button class="morebtn" onclick="findMatches(true)">Show all ${rankedAll.length} matching centres ↓</button>`
+    : (showAll && rankedAll.length>SHOW_LIMIT ? `<button class="morebtn" onclick="findMatches(false)">Show fewer ↑</button>` : '');
+  const head = q
+    ? `🔎 ${rankedAll.length} centre${rankedAll.length>1?'s':''} matching “${q}”`
+    : `🎯 ${rankedAll.length} centre${rankedAll.length>1?'s':''} fit your ${sel.age}-year-old`;
   document.getElementById('rInner').innerHTML=`
-    <div class="r-h">🎯 Top matches for your ${sel.age}-year-old</div>
-    <div class="r-sub">Ranked for fit — age, ${sel.region}, your budget${wantLabels.length?', and '+wantLabels.join(' + '):''}.</div>
+    <div class="r-h">${head}</div>
+    <div class="r-sub">Best-fit first — ranked by age, ${sel.region}, budget${wantLabels.length?', and '+wantLabels.join(' + '):''}. Showing ${ranked.length} of ${rankedAll.length}.</div>
     ${cards}
+    ${moreBtn}
     <div class="coverage">
       <h4>🌈 Developmental coverage</h4>
-      <div class="cs">How these picks map across Singapore's NEL learning areas.</div>
+      <div class="cs">How your top matches map across Singapore's NEL learning areas.</div>
       ${covRows}
       <div class="covtip">${tip}</div>
     </div>`;
-  const res=document.getElementById('results'); res.classList.add('show');
-  res.scrollIntoView({behavior:'smooth',block:'start'});
+  if(showAll===undefined) res.scrollIntoView({behavior:'smooth',block:'start'});
 }
 buildForm();
 </script>
