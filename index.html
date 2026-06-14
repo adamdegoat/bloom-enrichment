@@ -84,6 +84,10 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rg
 .namesearch{width:100%;font-family:'Inter';font-size:15px;padding:13px 15px;border-radius:13px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink);outline:none;transition:border-color .12s}
 .namesearch:focus{border-color:var(--lav)}
 .namesearch::placeholder{color:var(--faint)}
+.regionbar{font-size:12.5px;color:var(--muted);margin:0 0 12px}
+.regionbar b{color:var(--ink2);font-weight:700}
+.linkbtn{background:none;border:0;padding:0;font:inherit;font-weight:700;color:var(--berry);cursor:pointer;text-decoration:underline}
+.linkbtn:hover{filter:brightness(1.1)}
 .sortbar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:2px 0 16px}
 .sortbar span{font-size:12px;font-weight:600;color:var(--faint);margin-right:2px}
 .sortbar button{font-family:'Inter';font-size:12.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1.5px solid #e9e3f3;background:#fff;color:var(--ink2);cursor:pointer;transition:.12s}
@@ -447,7 +451,7 @@ function buildForm(){
   document.getElementById('focusGrid').innerHTML=Object.entries(FOCUS).map(([k,f])=>`<div class="fopt ${sel.focus.has(k)?'on':''}" style="--c:${f.c};--cb:${f.cb}" onclick="toggleF('${k}')"><div class="fi">${f.ic}</div><div><div class="ft">${f.label}</div><div class="fa">${f.area}</div></div></div>`).join('');
   document.getElementById('budgetSeg').innerHTML=[150,200,250,99999].map((b,i)=>`<button class="${b===sel.budget?'on':''}" onclick="setBudget(${b})">${i===3?'Any budget':'≤ $'+b}</button>`).join('');
 }
-function setAge(a){sel.age=a;buildForm();} function setRegion(r){sel.region=r;buildForm();} function setBudget(b){sel.budget=b;buildForm();}
+function setAge(a){sel.age=a;buildForm();} function setRegion(r){sel.region=r;sel.allAreas=false;buildForm();} function setBudget(b){sel.budget=b;buildForm();}
 function toggleF(k){sel.focus.has(k)?sel.focus.delete(k):sel.focus.add(k);buildForm();}
 
 function scoreClass(c){
@@ -473,6 +477,7 @@ function scoreClass(c){
 const SORTS={fit:'Best fit',price:'Price ↑',region:'Region',name:'A–Z'};
 function onSearch(v){ sel.q=v; if(document.getElementById('results').classList.contains('show')) findMatches(true); }
 function setSort(s){ sel.sort=s; findMatches(true); }
+function toggleAllAreas(){ sel.allAreas=!sel.allAreas; findMatches(true); }
 function findMatches(noScroll){
   // Hard budget filter: drop centres whose KNOWN price is over the cap.
   // "Any budget" (99999) keeps everything. Unknown-price centres are kept
@@ -480,6 +485,10 @@ function findMatches(noScroll){
   let pool = sel.budget>=99999 ? CLASSES : CLASSES.filter(c=>c.price==null || c.price<=sel.budget);
   const q=(sel.q||'').trim().toLowerCase();
   if(q) pool = pool.filter(c=>(c.prov+' '+c.n).toLowerCase().includes(q));
+  // Hard region filter: when browsing by area (not a name search), show only
+  // centres that serve the chosen region. Islandwide centres (all 5 regions)
+  // are kept automatically because their regs list includes the region too.
+  if(!q && !sel.allAreas) pool = pool.filter(c=>c.regs.includes(sel.region));
   // rank ALL matches best-fit first; this is the default order top→bottom
   const rankedAll=pool.map(c=>({c,...scoreClass(c)})).sort((a,b)=>b.score-a.score);
   // optional re-sort (a convenience; "fit" keeps the best-first ranking)
@@ -532,20 +541,22 @@ function findMatches(noScroll){
   if(!rankedAll.length){
     document.getElementById('rInner').innerHTML=`
       <div class="r-h">No centres match that</div>
-      <div class="r-sub">${q?`Nothing matched “${q}”`:'Nothing fit those filters'}. Try a higher budget, a different focus, or clear the centre-name box.</div>`;
+      <div class="r-sub">${q?`Nothing matched “${q}”`:`Nothing fit those filters in <b>${sel.region}</b>`}. Try a higher budget, a different focus${q?', or clear the centre-name box':''}.${(!q&&!sel.allAreas)?` <button class="linkbtn" onclick="toggleAllAreas()">Show all areas</button>`:''}</div>`;
     if(!noScroll) res.scrollIntoView({behavior:'smooth',block:'start'});
     return;
   }
   const head = q
     ? `🔎 ${rankedAll.length} centre${rankedAll.length>1?'s':''} matching “${q}”`
-    : `🎯 ${rankedAll.length} centre${rankedAll.length>1?'s':''} for your ${sel.age}-year-old`;
+    : `🎯 ${rankedAll.length} centre${rankedAll.length>1?'s':''} ${sel.allAreas?'across Singapore':'in '+sel.region} for your ${sel.age}-year-old`;
   const sub = sort==='fit'
     ? `Ranked best-fit first — #1 fits your ${sel.age}-year-old most${wantLabels.length?' for '+wantLabels.join(' + '):''}. Every match is listed; you decide.`
     : `Sorted by ${SORTS[sort].toLowerCase()}. All ${rankedAll.length} matches listed.`;
   const sortBar = `<div class="sortbar"><span>Sort</span>${Object.keys(SORTS).map(s=>`<button class="${sort===s?'on':''}" onclick="setSort('${s}')">${SORTS[s]}</button>`).join('')}</div>`;
+  const regionBar = q ? '' : `<div class="regionbar">📍 ${sel.allAreas?'Showing <b>all areas</b>':'Showing <b>'+sel.region+'</b> only (incl. islandwide)'} · <button class="linkbtn" onclick="toggleAllAreas()">${sel.allAreas?'filter to '+sel.region:'show all areas'}</button></div>`;
   document.getElementById('rInner').innerHTML=`
     <div class="r-h">${head}</div>
     <div class="r-sub">${sub}</div>
+    ${regionBar}
     ${sortBar}
     ${cards}
     <div class="coverage">
